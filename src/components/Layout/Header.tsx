@@ -43,7 +43,7 @@ export const Header: React.FC = () => {
           <div className="max-w-6xl mx-auto hidden lg:flex items-center space-x-6">
             <nav className="max-w-6xl mx-auto flex items-center space-x-4">
             {navigation.map((item) => ( 
-              <div key={item.name} className="relative group">
+              <div key={item.name} className="max-w-6xl mx-auto relative group">
                 <Link
                   to={item.href}
                   className={cn(
