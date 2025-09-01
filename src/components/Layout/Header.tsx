@@ -35,7 +35,7 @@ export const Header: React.FC = () => {
             <img 
               src="/Logo 11.png" 
               alt="Logo" 
-              className="h-25 w-25"
+              className="h-20 w-auto"
             />
           </Link>
 
