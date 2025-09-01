@@ -27,10 +27,8 @@ export const Header: React.FC = () => {
   ];
 
   return (
-    <header className="max-w mx-auto bg-white shadow-xl relative z-50 lg:rounded-full lg:mt-6 px-8 py-3">
-   
-
-      <div className="max-w-6xl mx-auto">   
+    <header className="bg-white shadow-xl relative z-50 lg:rounded-full lg:mt-6 px-8 py-3">
+      <div className="">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
@@ -74,10 +72,15 @@ export const Header: React.FC = () => {
                 )}
               </div>
             ))}
-            </nav> 
+            </nav>
 
             {/* CTA Buttons */}
             <div className="flex items-center space-x-4">
+            <Button variant="outline" size="sm" asChild>
+              <Link to="/quote">
+                Demander un devis
+              </Link>
+            </Button>
             <Button size="sm" asChild>
               <Link to="/contact">
                 {/* <Phone className="h-4 w-4 mr-2" /> */} 
@@ -135,6 +138,9 @@ export const Header: React.FC = () => {
                 </div>
               ))}
               <div className="flex flex-col space-y-2 pt-4 border-t border-gray-200">
+                <Button variant="outline" asChild>
+                  <Link to="/quote">Demander un devis</Link>
+                </Button>
                 <Button asChild>
                   <Link to="/contact">Contact</Link>
                 </Button>
