@@ -146,6 +146,7 @@ export const Header: React.FC = () => {
             </div>
           </motion.div>
         )}
+      </div>
     </header>
   );
 };
