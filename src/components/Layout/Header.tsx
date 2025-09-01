@@ -33,7 +33,7 @@ export const Header: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img 
-              src="/Logo 11.png" 
+              src="/Logo 12.png" 
               alt="Logo" 
               className="h-16 w-16"
             />
