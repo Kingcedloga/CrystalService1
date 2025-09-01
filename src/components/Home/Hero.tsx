@@ -66,7 +66,7 @@ export const Hero: React.FC = () => {
               <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white" asChild>
                 <Link to="/quote">
                   Demander un devis
-                  <ArrowRight className="ml-2 h-4 w-4" />
+                  {/* <ArrowRight className="ml-2 h-4 w-4" /> */} 
                 </Link>
               </Button>
               <Button size="lg" variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20" asChild>
