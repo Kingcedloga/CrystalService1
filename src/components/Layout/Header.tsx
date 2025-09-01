@@ -27,8 +27,8 @@ export const Header: React.FC = () => {
   ];
 
   return (
-    <header className="bg-white shadow-xl relative z-50 rounded-full max-w-7xl mx-auto mt-6 px-8 py-3">
-      <div className="">
+    <header className="bg-white shadow-xl relative z-50 rounded-full px-8 py-3">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
