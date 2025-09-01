@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Building, Shield, Users, Award, Target, Heart } from 'lucide-react';
+import { Building, Shield, Users, Award, Target, Heart, Linkedin } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
-import { stats } from '../data/mockData';
+import { stats, mockTeamMembers } from '../data/mockData';
 
 export const About: React.FC = () => {
   const values = [

@@ -174,3 +174,54 @@ export const mockPartnersLogos = [
     logo: 'https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg'
   }
 ]
+
+export const mockTeamMembers = [
+  {
+    id: '1',
+    name: 'Jean-Baptiste Mukendi',
+    position: 'Directeur Général',
+    image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg',
+    description: '15 ans d\'expérience dans la logistique internationale. Expert en développement commercial en Afrique centrale.',
+    linkedin: 'https://linkedin.com/in/jb-mukendi'
+  },
+  {
+    id: '2',
+    name: 'Marie Kalala',
+    position: 'Directrice Commerciale',
+    image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg',
+    description: 'Spécialiste en relations clients et développement de partenariats stratégiques. MBA en Commerce International.',
+    linkedin: 'https://linkedin.com/in/marie-kalala'
+  },
+  {
+    id: '3',
+    name: 'Patrick Mbuyi',
+    position: 'Responsable Opérations Douanières',
+    image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg',
+    description: 'Expert en réglementations douanières RDC et CEMAC. 12 ans d\'expérience en transit international.',
+    linkedin: 'https://linkedin.com/in/patrick-mbuyi'
+  },
+  {
+    id: '4',
+    name: 'Sylvie Ngoma',
+    position: 'Responsable Agence de Voyage',
+    image: 'https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg',
+    description: 'Diplômée en tourisme avec une expertise en voyages d\'affaires et services visa pour l\'Afrique.',
+    linkedin: 'https://linkedin.com/in/sylvie-ngoma'
+  },
+  {
+    id: '5',
+    name: 'Emmanuel Tshisekedi',
+    position: 'Responsable Transport Maritime',
+    image: 'https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg',
+    description: 'Ingénieur maritime avec 10 ans d\'expérience dans la gestion de flotte et logistique portuaire.',
+    linkedin: 'https://linkedin.com/in/emmanuel-tshisekedi'
+  },
+  {
+    id: '6',
+    name: 'Grace Kabila',
+    position: 'Directrice Ressources Humaines',
+    image: 'https://images.pexels.com/photos/3785078/pexels-photo-3785078.jpeg',
+    description: 'Experte en gestion des talents et développement organisationnel. Master en Psychologie du Travail.',
+    linkedin: 'https://linkedin.com/in/grace-kabila'
+  }
+];
