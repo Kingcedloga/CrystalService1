@@ -71,16 +71,16 @@ export const Header: React.FC = () => {
                   </div>
                 )}
               </div>
-            ))}
+            ))} 
             </nav>
 
             {/* CTA Buttons */}
-            <div className="flex items-center space-x-4">
-            {/* <Button variant="outline" size="sm" asChild> */} 
+            {/* <div className="flex items-center space-x-4">
+            <Button variant="outline" size="sm" asChild>
               <Link to="/quote">
                 Demander un devis
               </Link>
-            </Button>
+            </Button> */}
             <Button size="sm" asChild>
               <Link to="/contact">
                 {/* <Phone className="h-4 w-4 mr-2" /> */} 
