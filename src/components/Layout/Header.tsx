@@ -82,7 +82,7 @@ export const Header: React.FC = () => {
             </Button>
             <Button size="sm" asChild>
               <Link to="/contact">
-                <Phone className="h-4 w-4 mr-2" />
+                <Phone className="h-4 w-auto mr-2" />
                 Contact
               </Link>
             </Button>
