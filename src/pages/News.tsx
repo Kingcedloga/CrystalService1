@@ -52,7 +52,7 @@ export const News: React.FC = () => {
                   
                   <CardHeader>
                     <div className="flex items-center space-x-2 mb-2">
-                      <span className="bg-brand-blue-100 text-brand-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">
+                      <span className="bg-brand-blue-100 text-brand-blue-700 text-xs font-medium px-2.5 py-0.5 rounded">
                         {article.category}
                       </span>
                       <div className="flex items-center text-gray-500 text-xs">
@@ -69,7 +69,7 @@ export const News: React.FC = () => {
                   </CardHeader>
                   
                   <CardContent> 
-                    <Button variant="outline" className="w-full group-hover:bg-blue-600 group-hover:text-white transition-colors" asChild>
+                    <Button variant="outline" className="w-full group-hover:bg-brand-blue-500 group-hover:text-white transition-colors" asChild>
                       <Link to={`/news/${article.id}`}>
                         Lire l'article
                         <ArrowRight className="ml-2 h-4 w-4" />
@@ -94,7 +94,7 @@ export const News: React.FC = () => {
           >
             <Card>
               <CardContent className="p-8">
-                <Newspaper className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+                <Newspaper className="h-12 w-12 text-brand-blue-500 mx-auto mb-4" />
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
                   Restez Informé
                 </h2>

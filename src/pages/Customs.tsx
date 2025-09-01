@@ -18,7 +18,7 @@ export const Customs: React.FC = () => {
         'Suivi des dossiers en temps réel'
       ],
       timeframe: '24-48 heures', 
-      color: 'from-blue-500 to-blue-600'
+      color: 'from-brand-blue-400 to-brand-blue-500'
     },
     {
       icon: Ship,

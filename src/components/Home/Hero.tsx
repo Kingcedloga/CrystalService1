@@ -99,7 +99,7 @@ export const Hero: React.FC = () => {
               transition={{ duration: 0.6, delay: 0.8 }}
               className="absolute -bottom-6 -left-6 bg-white rounded-xl p-4 shadow-xl"
             >
-              <div className="text-center text-brand-blue-600">
+              <div className="text-center text-brand-blue-500">
                 <div className="text-2xl font-bold">15+</div>
                 <div className="text-sm text-gray-600">Années d'expérience</div>
               </div>

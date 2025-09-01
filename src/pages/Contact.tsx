@@ -115,7 +115,7 @@ export const Contact: React.FC = () => {
               </div>
               
               <div className="flex items-start space-x-4">
-                <Mail className="h-6 w-6 text-brand-blue-600 mt-1" />
+                <Mail className="h-6 w-6 text-brand-blue-500 mt-1" />
                 <div>
                   <h3 className="font-semibold text-gray-900">Email</h3>
                   <p className="text-gray-600">info@logisticspro.cd</p>
@@ -124,7 +124,7 @@ export const Contact: React.FC = () => {
               </div>
               
               <div className="flex items-start space-x-4"> 
-                <MapPin className="h-6 w-6 text-blue-600 mt-1" />
+                <MapPin className="h-6 w-6 text-brand-blue-500 mt-1" />
                 <div>
                   <h3 className="font-semibold text-gray-900">Siège Social</h3>
                   <p className="text-gray-600">Avenue des Cliniques, Immeuble Forescom</p>
@@ -147,7 +147,7 @@ export const Contact: React.FC = () => {
                     <CardContent className="p-4">
                       <h4 className="font-semibold text-gray-900 mb-2">{office.city}</h4>
                       <p className="text-sm text-gray-600 mb-1">{office.address}</p> 
-                      <p className="text-sm text-blue-600">{office.phone}</p>
+                      <p className="text-sm text-brand-blue-500">{office.phone}</p>
                     </CardContent>
                   </Card>
                 </motion.div>
@@ -164,7 +164,7 @@ export const Contact: React.FC = () => {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center"> 
-                  <MessageSquare className="h-5 w-5 mr-2 text-blue-600" />
+                  <MessageSquare className="h-5 w-5 mr-2 text-brand-blue-500" />
                   Envoyez-nous un message
                 </CardTitle>
                 <CardDescription>

@@ -12,7 +12,7 @@ export const CTASection: React.FC = () => {
       title: 'Demander un devis',
       description: 'Obtenez un devis personnalisé pour vos besoins logistiques',
       link: '/quote',
-      color: 'bg-brand-blue-600 hover:bg-brand-blue-700'
+      color: 'bg-brand-blue-500 hover:bg-brand-blue-600'
     },
     {
       icon: Search,

@@ -76,7 +76,7 @@ export const Privacy: React.FC = () => {
                 <Card>
                   <CardHeader>
                     <CardTitle className="flex items-center">
-                      <section.icon className="h-5 w-5 mr-2 text-brand-blue-600" />
+                      <section.icon className="h-5 w-5 mr-2 text-brand-blue-500" />
                       {section.title}
                     </CardTitle>
                   </CardHeader>

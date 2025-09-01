@@ -13,7 +13,7 @@ export const ServicesSection: React.FC = () => {
       description: 'Services douaniers complets pour tous types de marchandises',
       features: ['Terrestre', 'Maritime', 'Aérien'],
       link: '/customs',
-      color: 'from-brand-blue-500 to-brand-blue-600'
+      color: 'from-brand-blue-400 to-brand-blue-500'
     },
     {
       icon: Truck,
@@ -75,13 +75,13 @@ export const ServicesSection: React.FC = () => {
                   <ul className="space-y-2 mb-6">
                     {service.features.map((feature, idx) => (
                       <li key={idx} className="text-sm text-gray-600 flex items-center justify-center">
-                        <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></div>
+                        <div className="w-1.5 h-1.5 bg-brand-blue-500 rounded-full mr-2"></div>
                         {feature}
                       </li>
                     ))}
                   </ul>
-                  <Button variant="outline" className="w-full group-hover:bg-blue-600 group-hover:text-white transition-colors" asChild>
-                    <Link to={service.link} className="group-hover:bg-brand-blue-600 group-hover:text-white">
+                  <Button variant="outline" className="w-full group-hover:bg-brand-blue-500 group-hover:text-white transition-colors" asChild>
+                    <Link to={service.link}>
                       En savoir plus
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>

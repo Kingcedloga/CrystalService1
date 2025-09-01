@@ -123,7 +123,7 @@ export const About: React.FC = () => {
               >
                 <Card className="text-center hover:shadow-lg transition-shadow duration-300"> 
                   <CardContent className="p-6">
-                    <value.icon className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+                    <value.icon className="h-12 w-12 text-brand-blue-500 mx-auto mb-4" />
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
                       {value.title}
                     </h3>
@@ -166,7 +166,7 @@ export const About: React.FC = () => {
                 viewport={{ once: true }}
                 className="text-center"
               > 
-                <div className="text-3xl lg:text-4xl font-bold text-brand-blue-400 mb-2">
+                <div className="text-3xl lg:text-4xl font-bold text-brand-blue-300 mb-2">
                   {stat.value}
                 </div>
                 <div className="text-gray-300 text-sm">
@@ -206,7 +206,7 @@ export const About: React.FC = () => {
                 viewport={{ once: true }}
                 className="flex items-center space-x-4"
               >
-                <div className="bg-brand-blue-600 text-white rounded-full w-16 h-16 flex items-center justify-center font-bold text-sm">
+                <div className="bg-brand-blue-500 text-white rounded-full w-16 h-16 flex items-center justify-center font-bold text-sm">
                   {milestone.year}
                 </div>
                 <div className="flex-1">

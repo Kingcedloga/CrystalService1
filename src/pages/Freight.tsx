@@ -19,7 +19,7 @@ export const Freight: React.FC = () => {
       ],
       timeframe: '1-5 jours',
       capacity: 'Jusqu\'à 25 tonnes',
-      color: 'from-brand-blue-500 to-brand-blue-600'
+      color: 'from-brand-blue-400 to-brand-blue-500'
     },
     {
       icon: Ship,
@@ -196,7 +196,7 @@ export const Freight: React.FC = () => {
               >
                 <Card className="text-center hover:shadow-lg transition-shadow duration-300">
                   <CardContent className="p-8">
-                    <service.icon className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+                    <service.icon className="h-12 w-12 text-brand-blue-500 mx-auto mb-4" />
                     <h3 className="text-xl font-semibold text-gray-900 mb-3">
                       {service.title}
                     </h3>
@@ -227,8 +227,8 @@ export const Freight: React.FC = () => {
               Contactez nos experts pour une solution personnalisée
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700" asChild>
-                <Link to="/quote" className="bg-brand-blue-600 hover:bg-brand-blue-700">
+              <Button size="lg" className="bg-brand-blue-500 hover:bg-brand-blue-600" asChild>
+                <Link to="/quote">
                   Obtenir un devis gratuit
                 </Link>
               </Button>

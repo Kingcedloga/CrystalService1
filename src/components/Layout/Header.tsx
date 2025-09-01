@@ -46,9 +46,9 @@ export const Header: React.FC = () => {
                 <Link
                   to={item.href}
                   className={cn(
-                    "text-gray-700 hover:text-brand-blue-600 px-3 py-2 text-sm font-medium transition-colors",
-                    location.pathname === item.href && "text-brand-blue-600 bg-brand-blue-50",
-                    item.highlight && "bg-brand-blue-100 text-brand-blue-700"
+                    "block px-4 py-2 text-base font-medium text-gray-700 hover:text-brand-blue-500 hover:bg-gray-50 rounded-md",
+                    location.pathname === item.href && "text-brand-blue-500 bg-brand-blue-50",
+                    item.highlight && "bg-brand-blue-100 text-brand-blue-600"
                   )}
                 >
                   {item.name}
@@ -61,7 +61,7 @@ export const Header: React.FC = () => {
                         <Link
                           key={subItem.name}
                           to={subItem.href}
-                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-600"
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-blue-500"
                         >
                           {subItem.name}
                         </Link>
@@ -125,7 +125,7 @@ export const Header: React.FC = () => {
                         <Link
                           key={subItem.name}
                           to={subItem.href}
-                          className="block px-4 py-2 text-sm text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-md"
+                          className="block px-4 py-2 text-sm text-gray-600 hover:text-brand-blue-500 hover:bg-gray-50 rounded-md"
                           onClick={() => setIsMenuOpen(false)}
                         >
                           {subItem.name}
