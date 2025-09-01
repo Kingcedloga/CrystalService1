@@ -131,3 +131,45 @@ export const stats = [
   { label: 'Expéditions traitées', value: '50,000+' },
   { label: 'Partenaires actifs', value: '200+' }
 ];
+
+export const mockPartnersLogos = [
+  {
+    id: '1',
+    name: 'DHL Express',
+    logo: 'https://images.pexels.com/photos/4439901/pexels-photo-4439901.jpeg'
+  },
+  {
+    id: '2',
+    name: 'FedEx',
+    logo: 'https://images.pexels.com/photos/4439444/pexels-photo-4439444.jpeg'
+  },
+  {
+    id: '3',
+    name: 'UPS',
+    logo: 'https://images.pexels.com/photos/4439901/pexels-photo-4439901.jpeg'
+  },
+  {
+    id: '4',
+    name: 'Maersk',
+    logo: 'https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg'
+  },
+  {
+    id: '5',
+    name: 'MSC',
+    logo: 'https://images.pexels.com/photos/1117210/pexels-photo-1117210.jpeg'
+  },
+  {
+    id: '6',
+    name: 'CMA CGM',
+    logo: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg'
+  },
+  {
+    id: '7',
+    name: 'Emirates',
+    logo: 'https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg'
+  },
+  {
+    id: '8',
+    name: 'Air France',
+    logo: 'https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg'
+  }
