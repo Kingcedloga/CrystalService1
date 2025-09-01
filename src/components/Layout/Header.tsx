@@ -29,21 +29,21 @@ export const Header: React.FC = () => {
   return (
     <header className="max-w-screen-2xl mx-auto bg-white shadow-xl relative z-50 lg:rounded-full lg:mt-6 px-8 py-3">
       <div className="max-w-6xl mx-auto">  
-        <div className="max-w-6xl mx-auto flex justify-between items-center">
+        <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img 
               src="/Logo 12.png" 
-              alt="Logo" 
+              alt="Logo"  
               className="h-10 w-auto"
             />
           </Link>
 
           {/* Desktop Navigation and CTA - All aligned to the right */}
           <div className="max-w-6xl mx-auto hidden lg:flex items-center space-x-6">
-            <nav className="max-w-6xl mx-auto flex items-center space-x-4">
+            <nav className="flex items-center space-x-4">
             {navigation.map((item) => ( 
-              <div key={item.name} className="max-w-6xl mx-auto relative group">
+              <div key={item.name} className="relative group">
                 <Link
                   to={item.href}
                   className={cn(
