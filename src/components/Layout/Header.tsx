@@ -27,15 +27,15 @@ export const Header: React.FC = () => {
   ];
 
   return (
-    <header className="bg-white shadow-lg relative z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
+    <header className="bg-white shadow-xl relative z-50 rounded-full max-w-7xl mx-auto mt-6 px-8 py-3">
+      <div className="">
+        <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img 
               src="/Logo 12.png" 
               alt="Logo" 
-              className="h-16 w-auto"
+              className="h-10 w-auto"
             />
           </Link>
 
@@ -103,9 +103,9 @@ export const Header: React.FC = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden border-t border-gray-200"
+            className="lg:hidden border-t border-gray-200 mt-4"
           >
-            <div className="py-4 space-y-2">
+            <div className="py-4 space-y-2 px-4">
               {navigation.map((item) => (
                 <div key={item.name}>
                   <Link
@@ -135,7 +135,7 @@ export const Header: React.FC = () => {
                   )}
                 </div>
               ))}
-              <div className="flex flex-col space-y-2 px-4 pt-4 border-t border-gray-200">
+              <div className="flex flex-col space-y-2 pt-4 border-t border-gray-200">
                 <Button variant="outline" asChild>
                   <Link to="/quote">Demander un devis</Link>
                 </Button>
@@ -146,7 +146,6 @@ export const Header: React.FC = () => {
             </div>
           </motion.div>
         )}
-      </div>
     </header>
   );
 };
