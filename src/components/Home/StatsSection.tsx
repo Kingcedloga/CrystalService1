@@ -30,8 +30,8 @@ export const StatsSection: React.FC = () => {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
               className="text-center"
-            >
-              <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-2xl p-6 mb-4 hover:shadow-xl transition-shadow duration-300">
+            > 
+              <div className="bg-gradient-to-r from-brand-blue-600 to-brand-blue-700 text-white rounded-2xl p-6 mb-4 hover:shadow-xl transition-shadow duration-300">
                 <motion.div
                   initial={{ scale: 0 }}
                   whileInView={{ scale: 1 }}
@@ -41,7 +41,7 @@ export const StatsSection: React.FC = () => {
                 >
                   {stat.value}
                 </motion.div>
-                <div className="text-blue-100 text-sm font-medium">
+                <div className="text-brand-blue-100 text-sm font-medium">
                   {stat.label}
                 </div>
               </div>

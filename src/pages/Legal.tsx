@@ -39,7 +39,7 @@ export const Legal: React.FC = () => {
             >
               <Card>
                 <CardHeader>
-                  <CardTitle className="flex items-center">
+                  <CardTitle className="flex items-center"> 
                     <Building className="h-5 w-5 mr-2 text-blue-600" />
                     Informations sur l'Entreprise
                   </CardTitle>
@@ -84,7 +84,7 @@ export const Legal: React.FC = () => {
             >
               <Card>
                 <CardHeader>
-                  <CardTitle className="flex items-center">
+                  <CardTitle className="flex items-center"> 
                     <FileText className="h-5 w-5 mr-2 text-blue-600" />
                     Licences et Autorisations
                   </CardTitle>
@@ -126,7 +126,7 @@ export const Legal: React.FC = () => {
             >
               <Card>
                 <CardHeader>
-                  <CardTitle className="flex items-center">
+                  <CardTitle className="flex items-center"> 
                     <Shield className="h-5 w-5 mr-2 text-blue-600" />
                     Conformité Réglementaire
                   </CardTitle>
@@ -169,7 +169,7 @@ export const Legal: React.FC = () => {
             >
               <Card>
                 <CardHeader>
-                  <CardTitle className="flex items-center">
+                  <CardTitle className="flex items-center"> 
                     <Scale className="h-5 w-5 mr-2 text-blue-600" />
                     Résolution des Litiges
                   </CardTitle>
@@ -180,8 +180,7 @@ export const Legal: React.FC = () => {
                     ne peut être trouvé, les litiges seront soumis aux tribunaux compétents 
                     de Kinshasa, République Démocratique du Congo.
                   </p>
-                  
-                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                  <div className="bg-brand-blue-50 border-brand-blue-200 rounded-lg p-4">
                     <h4 className="font-semibold text-gray-900 mb-2">Contact Légal</h4>
                     <p className="text-gray-600 text-sm">
                       Pour toute question juridique: legal@logisticspro.cd<br />

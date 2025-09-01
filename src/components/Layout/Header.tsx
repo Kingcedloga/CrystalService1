@@ -46,9 +46,9 @@ export const Header: React.FC = () => {
                 <Link
                   to={item.href}
                   className={cn(
-                    "text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors",
-                    location.pathname === item.href && "text-blue-600",
-                    item.highlight && "bg-blue-50 text-blue-600 rounded-md"
+                    "text-gray-700 hover:text-brand-blue-600 px-3 py-2 text-sm font-medium transition-colors",
+                    location.pathname === item.href && "text-brand-blue-600 bg-brand-blue-50",
+                    item.highlight && "bg-brand-blue-100 text-brand-blue-700"
                   )}
                 >
                   {item.name}

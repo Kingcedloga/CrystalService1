@@ -17,7 +17,7 @@ export const Offices: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold mb-6"> 
               Nos Bureaux
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
@@ -43,7 +43,7 @@ export const Offices: React.FC = () => {
                 <Card className="h-full hover:shadow-xl transition-shadow duration-300">
                   <CardHeader>
                     <CardTitle className="text-2xl text-gray-900 flex items-center">
-                      <MapPin className="h-6 w-6 text-blue-600 mr-2" />
+                      <MapPin className="h-6 w-6 text-brand-blue-600 mr-2" />
                       {office.city}
                     </CardTitle>
                     <CardDescription className="text-gray-600">
@@ -63,7 +63,7 @@ export const Offices: React.FC = () => {
                       <div className="flex items-center space-x-3">
                         <Phone className="h-5 w-5 text-gray-400" />
                         <div>
-                          <p className="text-gray-900 font-medium">Téléphone</p>
+                          <p className="text-gray-900 font-medium">Téléphone</p> 
                           <p className="text-gray-600 text-sm">{office.phone}</p>
                         </div>
                       </div>
@@ -89,7 +89,7 @@ export const Offices: React.FC = () => {
                     <div className="pt-4 border-t">
                       <div className="flex space-x-2">
                         <Button size="sm" className="flex-1">
-                          Appeler
+                          Appeler 
                         </Button>
                         <Button size="sm" variant="outline" className="flex-1">
                           WhatsApp
@@ -123,13 +123,13 @@ export const Offices: React.FC = () => {
           </motion.div>
 
           <div className="bg-gray-100 rounded-xl p-8 text-center">
-            <div className="bg-blue-600 text-white rounded-lg p-6 max-w-md mx-auto">
+            <div className="bg-brand-blue-600 text-white rounded-lg p-6 max-w-md mx-auto">
               <MapPin className="h-12 w-12 mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-2">Carte Interactive</h3>
               <p className="text-blue-100">
                 Localisez facilement nos bureaux à travers la RDC
               </p>
-              <Button className="mt-4 bg-white text-blue-600 hover:bg-gray-100">
+              <Button className="mt-4 bg-white text-brand-blue-600 hover:bg-gray-100">
                 Voir sur Google Maps
               </Button>
             </div>

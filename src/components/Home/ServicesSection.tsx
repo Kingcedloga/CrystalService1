@@ -13,7 +13,7 @@ export const ServicesSection: React.FC = () => {
       description: 'Services douaniers complets pour tous types de marchandises',
       features: ['Terrestre', 'Maritime', 'Aérien'],
       link: '/customs',
-      color: 'from-blue-500 to-blue-600'
+      color: 'from-brand-blue-500 to-brand-blue-600'
     },
     {
       icon: Truck,
@@ -81,7 +81,7 @@ export const ServicesSection: React.FC = () => {
                     ))}
                   </ul>
                   <Button variant="outline" className="w-full group-hover:bg-blue-600 group-hover:text-white transition-colors" asChild>
-                    <Link to={service.link}>
+                    <Link to={service.link} className="group-hover:bg-brand-blue-600 group-hover:text-white">
                       En savoir plus
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>

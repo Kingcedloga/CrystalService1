@@ -19,7 +19,7 @@ export const Freight: React.FC = () => {
       ],
       timeframe: '1-5 jours',
       capacity: 'Jusqu\'à 25 tonnes',
-      color: 'from-blue-500 to-blue-600'
+      color: 'from-brand-blue-500 to-brand-blue-600'
     },
     {
       icon: Ship,
@@ -228,7 +228,7 @@ export const Freight: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700" asChild>
-                <Link to="/quote">
+                <Link to="/quote" className="bg-brand-blue-600 hover:bg-brand-blue-700">
                   Obtenir un devis gratuit
                 </Link>
               </Button>

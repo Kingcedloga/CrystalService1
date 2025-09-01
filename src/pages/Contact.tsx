@@ -81,7 +81,7 @@ export const Contact: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold mb-6"> 
               Contactez-Nous
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
@@ -107,7 +107,7 @@ export const Contact: React.FC = () => {
             <div className="space-y-6 mb-8">
               <div className="flex items-start space-x-4">
                 <Phone className="h-6 w-6 text-blue-600 mt-1" />
-                <div>
+                <div className="text-brand-blue-600">
                   <h3 className="font-semibold text-gray-900">Téléphone</h3>
                   <p className="text-gray-600">+243 81 234 5678</p>
                   <p className="text-sm text-gray-500">Lundi - Vendredi: 8h00 - 17h00</p>
@@ -115,7 +115,7 @@ export const Contact: React.FC = () => {
               </div>
               
               <div className="flex items-start space-x-4">
-                <Mail className="h-6 w-6 text-blue-600 mt-1" />
+                <Mail className="h-6 w-6 text-brand-blue-600 mt-1" />
                 <div>
                   <h3 className="font-semibold text-gray-900">Email</h3>
                   <p className="text-gray-600">info@logisticspro.cd</p>
@@ -123,7 +123,7 @@ export const Contact: React.FC = () => {
                 </div>
               </div>
               
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4"> 
                 <MapPin className="h-6 w-6 text-blue-600 mt-1" />
                 <div>
                   <h3 className="font-semibold text-gray-900">Siège Social</h3>
@@ -146,7 +146,7 @@ export const Contact: React.FC = () => {
                   <Card className="hover:shadow-md transition-shadow duration-300">
                     <CardContent className="p-4">
                       <h4 className="font-semibold text-gray-900 mb-2">{office.city}</h4>
-                      <p className="text-sm text-gray-600 mb-1">{office.address}</p>
+                      <p className="text-sm text-gray-600 mb-1">{office.address}</p> 
                       <p className="text-sm text-blue-600">{office.phone}</p>
                     </CardContent>
                   </Card>
@@ -163,7 +163,7 @@ export const Contact: React.FC = () => {
           >
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center">
+                <CardTitle className="flex items-center"> 
                   <MessageSquare className="h-5 w-5 mr-2 text-blue-600" />
                   Envoyez-nous un message
                 </CardTitle>

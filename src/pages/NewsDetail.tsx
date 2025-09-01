@@ -58,7 +58,7 @@ export const NewsDetail: React.FC = () => {
             
             <CardContent className="p-8">
               <div className="flex items-center space-x-4 mb-6">
-                <span className="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded">
+                <span className="bg-brand-blue-100 text-brand-blue-800 text-sm font-medium px-3 py-1 rounded">
                   {article.category}
                 </span>
                 <div className="flex items-center text-gray-500 text-sm">

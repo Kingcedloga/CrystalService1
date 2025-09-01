@@ -38,7 +38,7 @@ export const Privacy: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold mb-6"> 
               Politique de Confidentialité
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
@@ -76,7 +76,7 @@ export const Privacy: React.FC = () => {
                 <Card>
                   <CardHeader>
                     <CardTitle className="flex items-center">
-                      <section.icon className="h-5 w-5 mr-2 text-blue-600" />
+                      <section.icon className="h-5 w-5 mr-2 text-brand-blue-600" />
                       {section.title}
                     </CardTitle>
                   </CardHeader>
@@ -95,8 +95,8 @@ export const Privacy: React.FC = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
             className="mt-12"
-          >
-            <Card className="bg-blue-50 border-blue-200">
+          > 
+            <Card className="bg-brand-blue-50 border-brand-blue-200">
               <CardContent className="p-8 text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">
                   Questions sur vos données ?

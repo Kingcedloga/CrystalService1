@@ -7,7 +7,7 @@ import { Button } from '../ui/button';
 export const Hero: React.FC = () => {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800">
-      <div className="absolute inset-0 bg-black/10"></div>
+      <div className="absolute inset-0 bg-black/10 bg-gradient-to-br from-brand-blue-600 via-brand-blue-700 to-brand-blue-800"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -18,14 +18,14 @@ export const Hero: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-white"
           >
-            <div className="inline-flex items-center bg-blue-500/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
+            <div className="inline-flex items-center bg-brand-blue-500/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
               <div className="w-2 h-2 bg-green-400 rounded-full mr-2"></div>
               <span className="text-sm font-medium">Votre partenaire logistique de confiance</span>
             </div>
             
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
               Solutions Logistiques
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-cyan-200">
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-brand-blue-200 to-cyan-200">
                 & Voyage Expert
               </span>
             </h1>
@@ -89,7 +89,7 @@ export const Hero: React.FC = () => {
                 alt="Logistics professional"
                 className="rounded-2xl shadow-2xl w-full h-[400px] lg:h-[500px] object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent rounded-2xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-blue-900/20 to-transparent rounded-2xl"></div>
             </div>
             
             {/* Floating Stats */}
@@ -99,8 +99,8 @@ export const Hero: React.FC = () => {
               transition={{ duration: 0.6, delay: 0.8 }}
               className="absolute -bottom-6 -left-6 bg-white rounded-xl p-4 shadow-xl"
             >
-              <div className="text-center">
-                <div className="text-2xl font-bold text-blue-600">15+</div>
+              <div className="text-center text-brand-blue-600">
+                <div className="text-2xl font-bold">15+</div>
                 <div className="text-sm text-gray-600">Années d'expérience</div>
               </div>
             </motion.div>

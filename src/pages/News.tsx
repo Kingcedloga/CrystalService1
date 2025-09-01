@@ -18,7 +18,7 @@ export const News: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold mb-6"> 
               Actualités & Nouvelles
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
@@ -52,7 +52,7 @@ export const News: React.FC = () => {
                   
                   <CardHeader>
                     <div className="flex items-center space-x-2 mb-2">
-                      <span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">
+                      <span className="bg-brand-blue-100 text-brand-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">
                         {article.category}
                       </span>
                       <div className="flex items-center text-gray-500 text-xs">
@@ -60,7 +60,7 @@ export const News: React.FC = () => {
                         {new Date(article.publishedAt).toLocaleDateString('fr-FR')}
                       </div>
                     </div>
-                    <CardTitle className="text-lg group-hover:text-blue-600 transition-colors">
+                    <CardTitle className="text-lg group-hover:text-brand-blue-600 transition-colors">
                       {article.title}
                     </CardTitle>
                     <CardDescription className="text-gray-600">
@@ -68,7 +68,7 @@ export const News: React.FC = () => {
                     </CardDescription>
                   </CardHeader>
                   
-                  <CardContent>
+                  <CardContent> 
                     <Button variant="outline" className="w-full group-hover:bg-blue-600 group-hover:text-white transition-colors" asChild>
                       <Link to={`/news/${article.id}`}>
                         Lire l'article
@@ -105,8 +105,8 @@ export const News: React.FC = () => {
                 <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
                   <input
                     type="email"
-                    placeholder="Votre adresse email"
-                    className="flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Votre adresse email" 
+                    className="flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-blue-500"
                   />
                   <Button>
                     S'abonner

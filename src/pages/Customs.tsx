@@ -17,7 +17,7 @@ export const Customs: React.FC = () => {
         'Assistance technique et réglementaire',
         'Suivi des dossiers en temps réel'
       ],
-      timeframe: '24-48 heures',
+      timeframe: '24-48 heures', 
       color: 'from-blue-500 to-blue-600'
     },
     {
@@ -30,7 +30,7 @@ export const Customs: React.FC = () => {
         'Gestion des surestaries',
         'Inspection et contrôle qualité'
       ],
-      timeframe: '2-5 jours',
+      timeframe: '2-5 jours', 
       color: 'from-teal-500 to-teal-600'
     },
     {
@@ -43,7 +43,7 @@ export const Customs: React.FC = () => {
         'Gestion des marchandises spéciales',
         'Coordination avec les compagnies aériennes'
       ],
-      timeframe: '4-12 heures',
+      timeframe: '4-12 heures', 
       color: 'from-orange-500 to-orange-600'
     }
   ];
@@ -68,7 +68,7 @@ export const Customs: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50"> 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -78,7 +78,7 @@ export const Customs: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold mb-6"> 
               Services de Dédouanement
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8">
@@ -108,7 +108,7 @@ export const Customs: React.FC = () => {
                 viewport={{ once: true }}
               >
                 <Card className="h-full hover:shadow-xl transition-all duration-300 group">
-                  <CardHeader className="text-center">
+                  <CardHeader className="text-center"> 
                     <div className={`w-16 h-16 mx-auto rounded-full bg-gradient-to-r ${service.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
                       <service.icon className="h-8 w-8 text-white" />
                     </div>
@@ -118,7 +118,7 @@ export const Customs: React.FC = () => {
                   <CardContent>
                     <div className="space-y-3 mb-6">
                       {service.features.map((feature, idx) => (
-                        <div key={idx} className="flex items-center space-x-2">
+                        <div key={idx} className="flex items-center space-x-2"> 
                           <CheckCircle className="h-4 w-4 text-green-500" />
                           <span className="text-sm text-gray-600">{feature}</span>
                         </div>
@@ -126,7 +126,7 @@ export const Customs: React.FC = () => {
                     </div>
                     <div className="bg-gray-50 rounded-lg p-3 mb-4">
                       <div className="text-sm text-gray-600">Délai moyen</div>
-                      <div className="font-semibold text-gray-900">{service.timeframe}</div>
+                      <div className="font-semibold text-gray-900">{service.timeframe}</div> 
                     </div>
                     <Button className="w-full" variant="outline" asChild>
                       <Link to="/quote">
