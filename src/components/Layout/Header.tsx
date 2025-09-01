@@ -40,7 +40,7 @@ export const Header: React.FC = () => {
           </Link>
 
           {/* Desktop Navigation and CTA - All aligned to the right */}
-          <div className="hidden lg:flex items-center space-x-6">
+          <div className="max-w-6xl mx-auto hidden lg:flex items-center space-x-6">
             <nav className="flex items-center space-x-4">
             {navigation.map((item) => ( 
               <div key={item.name} className="relative group">
