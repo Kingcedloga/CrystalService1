@@ -10,7 +10,7 @@ export const Header: React.FC = () => {
   const location = useLocation();
 
   const navigation = [
-    { name: 'Accueil', href: '/' },
+    // { name: 'Accueil', href: '/' }, 
     { 
       name: 'Services', 
       href: '/services',
