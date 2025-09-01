@@ -75,3 +75,12 @@ export interface JobOffer {
   requirements: string[];
   postedAt: string;
 }
+
+export interface TeamMember {
+  id: string;
+  name: string;
+  position: string;
+  image: string;
+  description: string;
+  linkedin?: string;
+}

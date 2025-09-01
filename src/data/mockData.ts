@@ -173,4 +173,55 @@ export const mockPartnersLogos = [
     name: 'Air France',
     logo: 'https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg'
   }
+];
+
+export const mockTeamMembers: TeamMember[] = [
+  {
+    id: '1',
+    name: 'Jean-Baptiste Mukendi',
+    position: 'Directeur Général',
+    image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg',
+    description: 'Fort de 20 ans d\'expérience dans la logistique internationale, Jean-Baptiste dirige LogisticsPro avec vision et expertise.',
+    linkedin: '#'
+  },
+  {
+    id: '2',
+    name: 'Marie Kabongo',
+    position: 'Directrice Commerciale',
+    image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg',
+    description: 'Spécialiste en développement commercial, Marie pilote nos relations clients et notre expansion sur le marché congolais.',
+    linkedin: '#'
+  },
+  {
+    id: '3',
+    name: 'Patrick Mbuyi',
+    position: 'Responsable Opérations Douanières',
+    image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg',
+    description: 'Expert en procédures douanières avec 15 ans d\'expérience, Patrick assure la fluidité de tous nos dédouanements.',
+    linkedin: '#'
+  },
+  {
+    id: '4',
+    name: 'Grace Nzuzi',
+    position: 'Directrice Agence de Voyage',
+    image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg',
+    description: 'Passionnée de voyage et experte en tourisme d\'affaires, Grace coordonne tous nos services de voyage et visa.',
+    linkedin: '#'
+  },
+  {
+    id: '5',
+    name: 'Emmanuel Tshisekedi',
+    position: 'Responsable Transport',
+    image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg',
+    description: 'Logisticien chevronné, Emmanuel supervise notre flotte et optimise nos circuits de transport à travers la RDC.',
+    linkedin: '#'
+  },
+  {
+    id: '6',
+    name: 'Sylvie Kasongo',
+    position: 'Responsable Qualité & Conformité',
+    image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg',
+    description: 'Garante de nos standards de qualité, Sylvie veille au respect des normes internationales dans tous nos processus.',
+    linkedin: '#'
+  }
 ]

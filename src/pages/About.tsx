@@ -218,8 +218,70 @@ export const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Legal Info */}
+      {/* Team Section */}
       <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Notre Équipe Dirigeante
+            </h2>
+            <p className="text-xl text-gray-600">
+              Des professionnels expérimentés au service de votre réussite
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {mockTeamMembers.map((member, index) => (
+              <motion.div
+                key={member.id}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                viewport={{ once: true }}
+              >
+                <Card className="h-full hover:shadow-lg transition-shadow duration-300 group">
+                  <CardContent className="p-6 text-center">
+                    <div className="relative mb-4">
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        className="w-24 h-24 rounded-full mx-auto object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                      {member.name}
+                    </h3>
+                    <p className="text-brand-blue-600 font-medium text-sm mb-3">
+                      {member.position}
+                    </p>
+                    <p className="text-gray-600 text-sm mb-4">
+                      {member.description}
+                    </p>
+                    {member.linkedin && (
+                      <a
+                        href={member.linkedin}
+                        className="inline-flex items-center text-brand-blue-500 hover:text-brand-blue-600 transition-colors"
+                      >
+                        <Linkedin className="h-4 w-4 mr-1" />
+                        <span className="text-sm">LinkedIn</span>
+                      </a>
+                    )}
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Legal Info */}
+      <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
