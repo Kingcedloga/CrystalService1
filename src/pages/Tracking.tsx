@@ -51,7 +51,7 @@ export const Tracking: React.FC = () => {
           <Card className="mb-8">
             <CardHeader>
               <CardTitle className="flex items-center">
-                <Package className="h-5 w-5 mr-2 text-blue-600" />
+                <Package className="h-5 w-5 mr-2 text-brand-blue-600" />
                 Rechercher votre expédition
               </CardTitle>
               <CardDescription>
@@ -98,7 +98,7 @@ export const Tracking: React.FC = () => {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <MapPin className="h-5 w-5 mr-2 text-blue-600" />
+                  <MapPin className="h-5 w-5 mr-2 text-brand-blue-600" />
                   Statut de l'expédition: {trackingCode.toUpperCase()}
                 </CardTitle>
                 <CardDescription>
