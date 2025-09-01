@@ -75,7 +75,7 @@ export const Header: React.FC = () => {
             </nav>
 
             {/* CTA Buttons */}
-            <div className="flex items-center space-x-4">
+            <div className="max-w-6xl mx-auto flex items-center space-x-4">
             <Button variant="outline" size="sm" className="rounded-full" asChild>
               <Link to="/quote">
                 Demander un devis
