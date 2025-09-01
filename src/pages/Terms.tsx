@@ -30,7 +30,7 @@ export const Terms: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-gray-700 to-gray-900 text-white py-16">
+      <section className="bg-gradient-to-r from-brand-blue-600 to-brand-blue-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -42,6 +42,7 @@ export const Terms: React.FC = () => {
               Conditions d'Utilisation
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            <p className="text-xl text-brand-blue-100 max-w-3xl mx-auto">
               Les conditions générales qui régissent l'utilisation de nos services 
               et la relation contractuelle avec LogisticsPro.
             </p>
@@ -76,7 +77,7 @@ export const Terms: React.FC = () => {
                 <Card>
                   <CardHeader>
                     <CardTitle className="flex items-center">
-                      <section.icon className="h-5 w-5 mr-2 text-blue-600" />
+                      <section.icon className="h-5 w-5 mr-2 text-brand-blue-600" />
                       {section.title}
                     </CardTitle>
                   </CardHeader>

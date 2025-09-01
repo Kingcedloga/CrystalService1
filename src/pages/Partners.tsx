@@ -91,7 +91,7 @@ export const Partners: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-purple-600 to-purple-800 text-white py-16">
+      <section className="bg-gradient-to-r from-brand-blue-600 to-brand-blue-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -103,6 +103,7 @@ export const Partners: React.FC = () => {
               Devenez Notre Partenaire
             </h1>
             <p className="text-xl text-purple-100 max-w-3xl mx-auto mb-8">
+            <p className="text-xl text-brand-blue-100 max-w-3xl mx-auto mb-8">
               Rejoignez un réseau de partenaires de confiance et développez votre activité 
               avec le leader logistique en RDC.
             </p>
@@ -139,7 +140,7 @@ export const Partners: React.FC = () => {
               >
                 <Card className="text-center hover:shadow-lg transition-shadow duration-300">
                   <CardContent className="p-8">
-                    <benefit.icon className="h-12 w-12 text-purple-600 mx-auto mb-4" />
+                    <benefit.icon className="h-12 w-12 text-brand-blue-600 mx-auto mb-4" />
                     <h3 className="text-xl font-semibold text-gray-900 mb-3">
                       {benefit.title}
                     </h3>
@@ -162,7 +163,7 @@ export const Partners: React.FC = () => {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <Handshake className="h-5 w-5 mr-2 text-purple-600" />
+                  <Handshake className="h-5 w-5 mr-2 text-brand-blue-600" />
                   Candidature de Partenariat
                 </CardTitle>
                 <CardDescription>
@@ -308,7 +309,7 @@ export const Partners: React.FC = () => {
 
                   <Button 
                     type="submit" 
-                    className="w-full bg-purple-600 hover:bg-purple-700" 
+                    className="w-full bg-brand-blue-600 hover:bg-brand-blue-700" 
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? 'Envoi en cours...' : 'Envoyer la candidature'}

@@ -74,7 +74,7 @@ export const Careers: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-purple-600 to-purple-800 text-white py-16">
+      <section className="bg-gradient-to-r from-brand-blue-600 to-brand-blue-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -86,6 +86,7 @@ export const Careers: React.FC = () => {
               Rejoignez Notre Équipe
             </h1>
             <p className="text-xl text-purple-100 max-w-3xl mx-auto">
+            <p className="text-xl text-brand-blue-100 max-w-3xl mx-auto">
               Construisez votre carrière avec le leader logistique en RDC. 
               Nous offrons un environnement de travail dynamique et des opportunités de croissance.
             </p>
@@ -152,7 +153,7 @@ export const Careers: React.FC = () => {
                       <ul className="space-y-1">
                         {job.requirements.map((req, idx) => (
                           <li key={idx} className="text-sm text-gray-600 flex items-start">
-                            <div className="w-1.5 h-1.5 bg-purple-500 rounded-full mt-2 mr-2 flex-shrink-0"></div>
+                            <div className="w-1.5 h-1.5 bg-brand-blue-500 rounded-full mt-2 mr-2 flex-shrink-0"></div>
                             {req}
                           </li>
                         ))}
@@ -190,7 +191,7 @@ export const Careers: React.FC = () => {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <Users className="h-5 w-5 mr-2 text-purple-600" />
+                 <Users className="h-5 w-5 mr-2 text-brand-blue-600" />
                   Postuler à un Poste
                 </CardTitle>
                 <CardDescription>
@@ -329,7 +330,7 @@ export const Careers: React.FC = () => {
 
                   <Button 
                     type="submit" 
-                    className="w-full bg-purple-600 hover:bg-purple-700" 
+                    className="w-full bg-brand-blue-600 hover:bg-brand-blue-700" 
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? 'Envoi en cours...' : 'Envoyer ma candidature'}

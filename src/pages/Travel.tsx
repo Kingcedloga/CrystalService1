@@ -95,7 +95,7 @@ export const Travel: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-orange-600 to-orange-800 text-white py-16">
+      <section className="bg-gradient-to-r from-brand-blue-600 to-brand-blue-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -106,7 +106,7 @@ export const Travel: React.FC = () => {
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               Agence de Voyage
             </h1>
-            <p className="text-xl text-orange-100 max-w-3xl mx-auto mb-8">
+            <p className="text-xl text-brand-blue-100 max-w-3xl mx-auto mb-8">
               Votre partenaire voyage pour tous vos déplacements professionnels et personnels. 
               Billetterie, assurance et assistance visa.
             </p>
@@ -143,7 +143,7 @@ export const Travel: React.FC = () => {
               >
                 <Card className="h-full hover:shadow-lg transition-shadow duration-300">
                   <CardHeader className="text-center">
-                    <service.icon className="h-12 w-12 text-orange-600 mx-auto mb-4" />
+                    <service.icon className="h-12 w-12 text-brand-blue-600 mx-auto mb-4" />
                     <CardTitle className="text-xl">{service.title}</CardTitle>
                     <CardDescription>{service.description}</CardDescription>
                   </CardHeader>
@@ -151,7 +151,7 @@ export const Travel: React.FC = () => {
                     <ul className="space-y-2">
                       {service.features.map((feature, idx) => (
                         <li key={idx} className="flex items-center space-x-2 text-sm text-gray-600">
-                          <div className="w-1.5 h-1.5 bg-orange-500 rounded-full"></div>
+                          <div className="w-1.5 h-1.5 bg-brand-blue-500 rounded-full"></div>
                           <span>{feature}</span>
                         </li>
                       ))}
@@ -191,7 +191,7 @@ export const Travel: React.FC = () => {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <Calendar className="h-5 w-5 mr-2 text-orange-600" />
+                  <Calendar className="h-5 w-5 mr-2 text-brand-blue-600" />
                   Détails du voyage
                 </CardTitle>
                 <CardDescription>
@@ -336,7 +336,7 @@ export const Travel: React.FC = () => {
 
                   <Button 
                     type="submit" 
-                    className="w-full bg-orange-600 hover:bg-orange-700" 
+                    className="w-full bg-brand-blue-600 hover:bg-brand-blue-700" 
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? 'Envoi en cours...' : 'Envoyer la demande'}
