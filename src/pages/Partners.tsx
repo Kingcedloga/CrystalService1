@@ -102,7 +102,6 @@ export const Partners: React.FC = () => {
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               Devenez Notre Partenaire
             </h1>
-            <p className="text-xl text-purple-100 max-w-3xl mx-auto mb-8">
             <p className="text-xl text-brand-blue-100 max-w-3xl mx-auto mb-8">
               Rejoignez un réseau de partenaires de confiance et développez votre activité 
               avec le leader logistique en RDC.
