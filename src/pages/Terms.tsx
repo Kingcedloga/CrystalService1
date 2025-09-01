@@ -41,7 +41,6 @@ export const Terms: React.FC = () => {
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               Conditions d'Utilisation
             </h1>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             <p className="text-xl text-brand-blue-100 max-w-3xl mx-auto">
               Les conditions générales qui régissent l'utilisation de nos services 
               et la relation contractuelle avec LogisticsPro.
