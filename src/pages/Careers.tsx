@@ -85,7 +85,6 @@ export const Careers: React.FC = () => {
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               Rejoignez Notre Équipe
             </h1>
-            <p className="text-xl text-purple-100 max-w-3xl mx-auto">
             <p className="text-xl text-brand-blue-100 max-w-3xl mx-auto">
               Construisez votre carrière avec le leader logistique en RDC. 
               Nous offrons un environnement de travail dynamique et des opportunités de croissance.
