@@ -104,7 +104,7 @@ export const Quote: React.FC = () => {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center">
-                <FileText className="h-5 w-5 mr-2 text-blue-600" />
+                <FileText className="h-5 w-5 mr-2 text-brand-blue-600" />
                 Informations de l'expédition
               </CardTitle>
               <CardDescription>
