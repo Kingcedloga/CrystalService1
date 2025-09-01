@@ -57,7 +57,7 @@ export const Header: React.FC = () => {
                 
                 {item.submenu && (
                   <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                    <div className="py-100">
+                    <div className="py-1">
                       {item.submenu.map((subItem) => (
                         <Link
                           key={subItem.name}
