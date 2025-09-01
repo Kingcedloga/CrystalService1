@@ -141,9 +141,9 @@ export const Header: React.FC = () => {
                 <Button variant="outline" asChild>
                   <Link to="/quote">Demander un devis</Link>
                 </Button>
-                <Button asChild>
+                {/* <Button asChild>
                   <Link to="/contact">Contact</Link>
-                </Button>
+                </Button> */} 
               </div>
             </div>
           </motion.div>
