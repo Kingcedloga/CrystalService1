@@ -76,7 +76,7 @@ export const Header: React.FC = () => {
 
             {/* CTA Buttons */}
             <div className="flex items-center space-x-4">
-            <Button variant="outline" size="sm" asChild>
+            {/* <Button variant="outline" size="sm" asChild> */} 
               <Link to="/quote">
                 Demander un devis
               </Link>
