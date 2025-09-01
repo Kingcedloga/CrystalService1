@@ -173,3 +173,4 @@ export const mockPartnersLogos = [
     name: 'Air France',
     logo: 'https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg'
   }
+]
