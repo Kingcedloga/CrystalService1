@@ -40,7 +40,7 @@ export const Legal: React.FC = () => {
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center"> 
-                    <Building className="h-5 w-5 mr-2 text-blue-600" />
+                    <Building className="h-5 w-5 mr-2 text-brand-blue-500" />
                     Informations sur l'Entreprise
                   </CardTitle>
                 </CardHeader>
@@ -85,7 +85,7 @@ export const Legal: React.FC = () => {
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center"> 
-                    <FileText className="h-5 w-5 mr-2 text-blue-600" />
+                    <FileText className="h-5 w-5 mr-2 text-brand-blue-500" />
                     Licences et Autorisations
                   </CardTitle>
                 </CardHeader>
@@ -127,7 +127,7 @@ export const Legal: React.FC = () => {
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center"> 
-                    <Shield className="h-5 w-5 mr-2 text-blue-600" />
+                    <Shield className="h-5 w-5 mr-2 text-brand-blue-500" />
                     Conformité Réglementaire
                   </CardTitle>
                 </CardHeader>
@@ -170,7 +170,7 @@ export const Legal: React.FC = () => {
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center"> 
-                    <Scale className="h-5 w-5 mr-2 text-blue-600" />
+                    <Scale className="h-5 w-5 mr-2 text-brand-blue-500" />
                     Résolution des Litiges
                   </CardTitle>
                 </CardHeader>
