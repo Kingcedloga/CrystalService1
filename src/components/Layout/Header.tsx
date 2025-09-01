@@ -143,7 +143,7 @@ export const Header: React.FC = () => {
                 </Button>
                 {/* <Button asChild>
                   <Link to="/contact">Contact</Link>
-                </Button> */} 
+                </Button> */}  
               </div>
             </div>
           </motion.div>
