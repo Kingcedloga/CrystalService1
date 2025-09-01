@@ -40,7 +40,7 @@ export const Header: React.FC = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-left space-x-8">
             {navigation.map((item) => (
               <div key={item.name} className="relative group">
                 <Link
