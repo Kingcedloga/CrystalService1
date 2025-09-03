@@ -41,7 +41,7 @@ export const Header: React.FC = () => {
           </Link>
 
           {/* Desktop Navigation and CTA - All aligned to the right */}
-          <div className="max-w-6xl mx-auto hidden lg:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-8">
             <nav className="flex items-center space-x-6">
             {navigation.map((item) => ( 
               <div key={item.name} className="relative group">
@@ -76,7 +76,7 @@ export const Header: React.FC = () => {
             </nav>
 
             {/* CTA Buttons */}
-            <div className="max-w-6xl mx-auto flex items-center space-x-3">
+            <div className="flex items-center space-x-3">
             <Button size="sm" className="rounded-full px-6" asChild>
               <Link to="/quote">
                 Demander un devis
