@@ -27,10 +27,9 @@ export const Hero: React.FC = () => {
               Solutions Logistiques
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-brand-blue-200 to-cyan-200">
                 & Voyage Expert
-                
               </span>
             </h1>
-            
+              </span>              </span>
             <p className="text-xl text-blue-100 mb-8 leading-relaxed">
               Dédouanement, transport de fret et services de voyage professionnels 
               à travers la République Démocratique du Congo et l'Afrique.
