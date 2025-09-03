@@ -27,7 +27,7 @@ export const Header: React.FC = () => {
   ];
 
   return (
-    <header className="max-w-screen-2xl mx-auto bg-white shadow-xl relative z-50 lg:rounded-full lg:mt-6 px-8 py-3">
+    <header className="max-w-screen-2xl mx-auto bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 relative z-50 lg:rounded-full lg:mt-6 px-8 py-3">
       <div className="max-w-6xl mx-auto">  
         <div className="flex justify-between items-center">
           {/* Logo */}
@@ -47,22 +47,22 @@ export const Header: React.FC = () => {
                 <Link
                   to={item.href}
                   className={cn(
-                    "block px-4 py-2 text-base font-medium text-gray-700 hover:text-brand-blue-500 hover:bg-gray-50 rounded-md",
-                    location.pathname === item.href && "text-brand-blue-500 bg-brand-blue-100",
-                    item.highlight && "bg-brand-blue-100 text-brand-blue-600"
+                    "block px-4 py-2 text-base font-medium text-white hover:text-brand-blue-200 hover:bg-white/10 rounded-md",
+                    location.pathname === item.href && "text-brand-blue-200 bg-brand-blue-700",
+                    item.highlight && "bg-brand-blue-700 text-brand-blue-200"
                   )}
                 > 
                   {item.name}
                 </Link>
                 
                 {item.submenu && (
-                  <div className="absolute left-20 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                  <div className="absolute left-20 mt-2 w-48 bg-white/95 backdrop-blur-sm rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                     <div className="py-1">
                       {item.submenu.map((subItem) => (
                         <Link
                           key={subItem.name}
                           to={subItem.href}
-                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-brand-blue-500"
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue-50 hover:text-brand-blue-600"
                         >
                           {subItem.name}
                         </Link>
@@ -76,7 +76,7 @@ export const Header: React.FC = () => {
 
             {/* CTA Buttons */}
             <div className="max-w-6xl mx-auto flex items-center space-x-4">
-            <Button variant="outline" size="sm" className="rounded-full" asChild>
+            <Button variant="outline" size="sm" className="rounded-full bg-white/10 border-white/20 text-white hover:bg-white/20" asChild>
               <Link to="/quote">
                 Demander un devis
               </Link>
@@ -93,7 +93,7 @@ export const Header: React.FC = () => {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-100"
+            className="lg:hidden p-2 rounded-md text-white hover:text-brand-blue-200 hover:bg-white/10"
           >
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -105,17 +105,17 @@ export const Header: React.FC = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden border-t border-gray-200 mt-4"
+            className="lg:hidden border-t border-white/20 mt-4"
           >
-            <div className="py-4 space-y-2 px-4">
+            <div className="py-4 space-y-2 px-4 bg-white/5 rounded-lg">
               {navigation.map((item) => (
                 <div key={item.name}>
                   <Link
                     to={item.href}
                     className={cn(
-                      "block px-4 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md",
-                      location.pathname === item.href && "text-blue-600 bg-blue-50",
-                      item.highlight && "bg-blue-100 text-blue-700"
+                      "block px-4 py-2 text-base font-medium text-white hover:text-brand-blue-200 hover:bg-white/10 rounded-md",
+                      location.pathname === item.href && "text-brand-blue-200 bg-brand-blue-700",
+                      item.highlight && "bg-brand-blue-700 text-brand-blue-200"
                     )}
                     onClick={() => setIsMenuOpen(false)}
                   >
@@ -127,7 +127,7 @@ export const Header: React.FC = () => {
                         <Link
                           key={subItem.name}
                           to={subItem.href}
-                          className="block px-4 py-2 text-sm text-gray-600 hover:text-brand-blue-500 hover:bg-gray-50 rounded-md"
+                          className="block px-4 py-2 text-sm text-white/80 hover:text-brand-blue-200 hover:bg-white/10 rounded-md"
                           onClick={() => setIsMenuOpen(false)}
                         >
                           {subItem.name}
@@ -137,8 +137,8 @@ export const Header: React.FC = () => {
                   )}
                 </div>
               ))}
-              <div className="flex flex-col space-y-2 pt-4 border-t border-gray-200">
-                <Button variant="outline" className="rounded-full" asChild>
+              <div className="flex flex-col space-y-2 pt-4 border-t border-white/20">
+                <Button variant="outline" className="rounded-full bg-white/10 border-white/20 text-white hover:bg-white/20" asChild>
                   <Link to="/quote">Demander un devis</Link>
                 </Button>
                 {/* <Button asChild>
