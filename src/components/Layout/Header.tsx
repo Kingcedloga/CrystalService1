@@ -79,7 +79,7 @@ export const Header: React.FC = () => {
             <div className="flex items-center space-x-3">
             <Button size="sm" className="rounded-full px-6" asChild>
               <Link to="/quote">
-                Demander un devis
+                Devis gratuit
               </Link>
             </Button>
             {/* <Button size="sm" asChild>
