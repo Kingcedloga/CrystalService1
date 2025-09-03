@@ -30,7 +30,6 @@ export const Header: React.FC = () => {
 
   return (
     <header className={`max-w-screen-2xl mx-auto bg-white fixed z-50 lg:rounded-full top-0 lg:top-6 inset-x-0 lg:left-1/2 lg:-translate-x-1/2 px-6 py-3 transition-shadow duration-300 ${!isHomePage ? 'shadow-2xl' : 'shadow-lg'}`}>
-    <header className={`max-w-screen-2xl mx-auto bg-white fixed z-50 lg:rounded-full top-0 lg:top-6 inset-x-0 lg:left-1/2 lg:-translate-x-1/2 px-6 py-3 transition-shadow duration-300 ${!isHomePage ? 'shadow-2xl' : 'shadow-none'}`}>
       <div>  
         <div className="flex justify-between items-center">
           {/* Logo */}
