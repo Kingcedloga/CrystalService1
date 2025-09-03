@@ -21,7 +21,7 @@ export const Header: React.FC = () => {
         { name: 'Représentation Maritime', href: '/maritime-representation' }
       ]
     },
-    { name: 'Suivi', href: '/tracking', highlight: true },
+    { name: 'Suivi', href: '/tracking' },
     { name: 'À Propos', href: '/about' },
     { name: 'Actualités', href: '/news' },
     { name: 'Contact', href: '/contact' },
