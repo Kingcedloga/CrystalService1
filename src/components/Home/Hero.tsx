@@ -6,7 +6,7 @@ import { Button } from '../ui/button';
 
 export const Hero: React.FC = () => {
   return (
-    <section className="absolute inset-5 bg-gradient-to-br from-brand-blue-600 via-brand-blue-700 to-brand-blue-800"> 
+    <section className="absolute inset-2 bg-gradient-to-br from-brand-blue-600 via-brand-blue-700 to-brand-blue-800"> 
       {/* <div className="absolute inset-10 bg-black/10 bg-gradient-to-br from-brand-blue-600 via-brand-blue-700 to-brand-blue-800"></div> */}
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
