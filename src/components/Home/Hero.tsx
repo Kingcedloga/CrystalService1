@@ -29,7 +29,7 @@ export const Hero: React.FC = () => {
                 & Voyage Expert
               </span>
             </h1>
-            <p className="text-xl text-blue-100 mb-80 leading-relaxed">
+            <p className="text-xl text-blue-100 mb-5 leading-relaxed">
               Dédouanement, transport de fret et services de voyage professionnels 
               à travers la République Démocratique du Congo et l'Afrique.
             </p>
