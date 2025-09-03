@@ -5,6 +5,7 @@ import { Home } from './pages/Home';
 import { Customs } from './pages/Customs';
 import { Freight } from './pages/Freight';
 import { Travel } from './pages/Travel';
+import { MaritimeRepresentation } from './pages/MaritimeRepresentation';
 import { Tracking } from './pages/Tracking';
 import { Quote } from './pages/Quote';
 import { Partners } from './pages/Partners';
@@ -28,6 +29,7 @@ function App() {
           <Route path="/customs" element={<Customs />} />
           <Route path="/freight" element={<Freight />} />
           <Route path="/travel" element={<Travel />} />
+          <Route path="/maritime-representation" element={<MaritimeRepresentation />} />
           <Route path="/tracking" element={<Tracking />} />
           <Route path="/quote" element={<Quote />} />
           <Route path="/partners" element={<Partners />} />

@@ -17,7 +17,8 @@ export const Header: React.FC = () => {
       submenu: [
         { name: 'Dédouanement', href: '/customs' },
         { name: 'Fret & Transport', href: '/freight' },
-        { name: 'Agence de Voyage', href: '/travel' }
+        { name: 'Agence de Voyage', href: '/travel' },
+        { name: 'Représentation Maritime', href: '/maritime-representation' }
       ]
     },
     { name: 'Suivi', href: '/tracking', highlight: true },
