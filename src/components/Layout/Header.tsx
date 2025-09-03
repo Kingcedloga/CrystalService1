@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Menu, X, Truck, Phone, Search } from 'lucide-react';
@@ -7,8 +7,19 @@ import { cn } from '../../lib/utils';
 
 export const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
   const isHomePage = location.pathname === '/';
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 50;
+      setScrolled(isScrolled);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const navigation = [
     // { name: 'Accueil', href: '/' }, 
@@ -28,14 +39,30 @@ export const Header: React.FC = () => {
     { name: 'Contact', href: '/contact' },
   ];
 
+  // Déterminer les classes dynamiques de la navbar
+  const isNavbarSolid = scrolled || !isHomePage;
+  const headerClasses = `max-w-screen-2xl mx-auto fixed z-50 lg:rounded-full top-0 lg:top-6 inset-x-0 lg:left-1/2 lg:-translate-x-1/2 px-6 py-3 transition-all duration-300 ${
+    isNavbarSolid 
+      ? 'bg-white shadow-lg' 
+      : 'bg-transparent shadow-none'
+  }`;
+
+  // Déterminer le logo à utiliser
+  const logoSrc = isNavbarSolid ? '/Logo 12.png' : '/Logo 11.png';
+
+  // Déterminer les classes de texte
+  const textColorClass = isNavbarSolid ? 'text-gray-700' : 'text-white';
+  const hoverColorClass = isNavbarSolid ? 'hover:text-brand-blue-500' : 'hover:text-white';
+  const bgHoverClass = isNavbarSolid ? 'hover:bg-gray-50' : 'hover:bg-white/10';
+
   return (
-    <header className={`max-w-screen-2xl mx-auto bg-white fixed z-50 lg:rounded-full top-0 lg:top-6 inset-x-0 lg:left-1/2 lg:-translate-x-1/2 px-6 py-3 transition-shadow duration-300 ${!isHomePage ? 'shadow-2xl' : 'shadow-lg'}`}>
+    <header className={headerClasses}>
       <div>  
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img 
-              src="/Logo 12.png" 
+              src={logoSrc}
               alt="Logo"  
               className="h-10 w-auto"
             />
@@ -49,7 +76,7 @@ export const Header: React.FC = () => {
                 <Link
                   to={item.href}
                   className={cn(
-                    "block px-3 py-2 text-base font-medium text-gray-700 hover:text-brand-blue-500 hover:bg-gray-50 rounded-md whitespace-nowrap",
+                    `block px-3 py-2 text-base font-medium ${textColorClass} ${hoverColorClass} ${bgHoverClass} rounded-md whitespace-nowrap`,
                     location.pathname === item.href && "text-brand-blue-500 bg-brand-blue-100",
                     item.highlight && "bg-brand-blue-100 text-brand-blue-600"
                   )}
@@ -95,7 +122,7 @@ export const Header: React.FC = () => {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-100"
+            className={`lg:hidden p-2 rounded-md ${textColorClass} ${hoverColorClass} ${bgHoverClass}`}
           >
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -115,7 +142,7 @@ export const Header: React.FC = () => {
                   <Link
                     to={item.href}
                     className={cn(
-                      "block px-4 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md",
+                      `block px-4 py-2 text-base font-medium ${textColorClass} ${hoverColorClass} ${bgHoverClass} rounded-md`,
                       location.pathname === item.href && "text-blue-600 bg-blue-50",
                       item.highlight && "bg-blue-100 text-blue-700"
                     )}
@@ -129,7 +156,7 @@ export const Header: React.FC = () => {
                         <Link
                           key={subItem.name}
                           to={subItem.href}
-                          className="block px-4 py-2 text-sm text-gray-600 hover:text-brand-blue-500 hover:bg-gray-50 rounded-md"
+                          className={`block px-4 py-2 text-sm text-gray-600 hover:text-brand-blue-500 ${bgHoverClass} rounded-md`}
                           onClick={() => setIsMenuOpen(false)}
                         >
                           {subItem.name}
