@@ -42,7 +42,7 @@ export const Privacy: React.FC = () => {
               Politique de Confidentialité
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              LogisticsPro s'engage à protéger votre vie privée et vos données personnelles 
+              Crystal Services s'engage à protéger votre vie privée et vos données personnelles 
               conformément aux meilleures pratiques internationales.
             </p>
           </motion.div>
@@ -107,7 +107,7 @@ export const Privacy: React.FC = () => {
                   délégué à la protection des données.
                 </p>
                 <div className="text-sm text-gray-600">
-                  <p><strong>Email:</strong> privacy@logisticspro.cd</p>
+                  <p><strong>Email:</strong> privacy@crystalservices.cd</p>
                   <p><strong>Téléphone:</strong> +243 81 234 5678</p>
                 </div>
               </CardContent>

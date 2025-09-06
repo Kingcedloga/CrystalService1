@@ -19,7 +19,7 @@ export const Legal: React.FC = () => {
               Mentions Légales
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Informations légales et réglementaires concernant LogisticsPro SARL 
+              Informations légales et réglementaires concernant Crystal Services SARL 
               et ses activités en République Démocratique du Congo.
             </p>
           </motion.div>
@@ -48,7 +48,7 @@ export const Legal: React.FC = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Dénomination Sociale</h4>
-                      <p className="text-gray-600">LogisticsPro SARL</p>
+                      <p className="text-gray-600">Crystal Services SARL</p>
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Forme Juridique</h4>
@@ -133,7 +133,7 @@ export const Legal: React.FC = () => {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-gray-600">
-                    LogisticsPro SARL opère en pleine conformité avec la législation de la 
+                    Crystal Services SARL opère en pleine conformité avec la législation de la 
                     République Démocratique du Congo et les conventions internationales 
                     applicables au transport et à la logistique.
                   </p>
@@ -183,7 +183,7 @@ export const Legal: React.FC = () => {
                   <div className="bg-brand-blue-50 border-brand-blue-200 rounded-lg p-4">
                     <h4 className="font-semibold text-gray-900 mb-2">Contact Légal</h4>
                     <p className="text-gray-600 text-sm">
-                      Pour toute question juridique: legal@logisticspro.cd<br />
+                      Pour toute question juridique: legal@crystalservices.cd<br />
                       Téléphone: +243 81 234 5678
                     </p>
                   </div>

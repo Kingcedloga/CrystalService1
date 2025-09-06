@@ -49,7 +49,7 @@ export const About: React.FC = () => {
             className="text-center pt-[5rem] lg:pt-[6rem]"
           >
             <h1 className="text-4xl lg:text-5xl font-bold mb-6"> 
-              À Propos de LogisticsPro
+              À Propos de Crystal Services
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
               Leader en solutions logistiques et de voyage en République Démocratique du Congo 
@@ -74,7 +74,7 @@ export const About: React.FC = () => {
             </h2>
             <div className="prose prose-lg max-w-none text-gray-600">
               <p className="mb-6">
-                Fondée en 2010 à Kinshasa, LogisticsPro est née de la vision de faciliter les échanges 
+                Fondée en 2010 à Kinshasa, Crystal Services est née de la vision de faciliter les échanges 
                 commerciaux en République Démocratique du Congo. Nos fondateurs, forts d'une expérience 
                 internationale en logistique, ont identifié le besoin crucial d'un partenaire fiable 
                 pour accompagner les entreprises dans leurs opérations d'import-export.
@@ -86,7 +86,7 @@ export const About: React.FC = () => {
                 du marché congolais et les réglementations internationales.
               </p>
               <p>
-                Enregistrée sous le RCCM 21-B-00409, LogisticsPro s'engage à respecter les plus 
+                Enregistrée sous le RCCM 21-B-00409, Crystal Services s'engage à respecter les plus 
                 hauts standards de conformité et de qualité dans tous ses services.
               </p>
             </div>
@@ -149,7 +149,7 @@ export const About: React.FC = () => {
             className="text-center mb-12"
           >
             <h2 className="text-3xl font-bold mb-4">
-              LogisticsPro en Chiffres
+              Crystal Services en Chiffres
             </h2>
             <p className="text-xl text-gray-300">
               Des résultats qui témoignent de notre expertise
@@ -252,7 +252,7 @@ export const About: React.FC = () => {
                         src={member.image}
                         alt={member.name}
                         className="w-24 h-24 rounded-full mx-auto object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
+                      <p className="text-gray-600">Crystal Services SARL</p>
                     </div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">
                       {member.name}

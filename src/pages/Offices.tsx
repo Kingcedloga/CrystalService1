@@ -21,7 +21,7 @@ export const Offices: React.FC = () => {
               Nos Bureaux
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              LogisticsPro dispose d'un réseau de bureaux stratégiquement situés 
+              Crystal Services dispose d'un réseau de bureaux stratégiquement situés 
               à travers la République Démocratique du Congo pour vous servir au mieux.
             </p>
           </motion.div>

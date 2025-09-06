@@ -43,7 +43,7 @@ export const Terms: React.FC = () => {
             </h1>
             <p className="text-xl text-brand-blue-100 max-w-3xl mx-auto">
               Les conditions générales qui régissent l'utilisation de nos services 
-              et la relation contractuelle avec LogisticsPro.
+              et la relation contractuelle avec Crystal Services.
             </p>
           </motion.div>
         </div>

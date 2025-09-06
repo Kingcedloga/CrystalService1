@@ -22,7 +22,7 @@ export const News: React.FC = () => {
               Actualités & Nouvelles
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Restez informé des dernières nouvelles de LogisticsPro et des évolutions 
+              Restez informé des dernières nouvelles de Crystal Services et des évolutions 
               du secteur logistique en République Démocratique du Congo.
             </p>
           </motion.div>
