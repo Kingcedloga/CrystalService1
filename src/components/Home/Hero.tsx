@@ -25,7 +25,7 @@ export const Hero: React.FC = () => {
             
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
               Solutions Logistiques
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-brand-blue-200 to-cyan-200 leading-tight mb-10">
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-brand-blue-200 to-cyan-200 leading-tight mb-12">
                 & Voyage Expert
               </span>
             </h1>
