@@ -74,7 +74,7 @@ export const MaritimeRepresentation: React.FC = () => {
             </p>
             <Button size="lg" variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20" asChild>
               <Link to="/quote">
-                <Anchor className="h-5 w-5 mr-2" />
+                {/* <Anchor className="h-5 w-5 mr-2" />  */} 
                 Demander nos services
               </Link>
             </Button>
