@@ -94,7 +94,7 @@ export const Customs: React.FC = () => {
       {/* Hero Section */}
       <section className="top-0 bottom-10 inset-x-0 text-white py-16 overflow-hidden">
         {/* Diaporama d'images */}
-        <div className="absolute inset-0 bottom-10"> 
+        <div className="relative inset-0"> 
           <motion.img
             key={currentImageIndex}
             src={heroImages[currentImageIndex]}
