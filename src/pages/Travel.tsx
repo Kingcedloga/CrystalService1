@@ -95,13 +95,13 @@ export const Travel: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-brand-blue-600 to-brand-blue-800 text-white py-16">
+      <section className="bg-gradient-to-r from-brand-blue-600 to-brand-blue-800 text-white py-16 min-h-[75vh] mt-[-5rem] lg:mt-[-6rem] z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center"
+            className="text-center pt-[5rem] lg:pt-[6rem]"
           >
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               Agence de Voyage
