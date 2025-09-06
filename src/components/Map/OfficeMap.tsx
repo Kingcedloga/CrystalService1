@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import { Icon } from 'leaflet';
 import { MapPin, Phone, Mail } from 'lucide-react';
 
@@ -26,6 +26,22 @@ const customIcon = new Icon({
   shadowSize: [41, 41]
 });
 
+// Composant pour forcer le redimensionnement de la carte
+const MapResizer: React.FC = () => {
+  const map = useMap();
+  
+  React.useEffect(() => {
+    // Délai pour s'assurer que les animations sont terminées
+    const timer = setTimeout(() => {
+      map.invalidateSize();
+    }, 100);
+    
+    return () => clearTimeout(timer);
+  }, [map]);
+  
+  return null;
+};
+
 export const OfficeMap: React.FC<OfficeMapProps> = ({ offices }) => {
   // Centre de la carte sur Kinshasa (position par défaut)
   const centerPosition: [number, number] = [-4.3317, 15.3139];
@@ -42,6 +58,8 @@ export const OfficeMap: React.FC<OfficeMapProps> = ({ offices }) => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        
+        <MapResizer />
         
         {offices.map((office, index) => (
           <Marker
