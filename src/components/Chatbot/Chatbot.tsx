@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
 import { MessageCircle, X, Send, Bot, User } from 'lucide-react';
 import { Button } from '../ui/button';
 import { Input } from '../ui/input';
