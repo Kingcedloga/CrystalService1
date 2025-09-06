@@ -146,22 +146,3 @@ export const Header: React.FC = () => {
     </header>
   );
 };
-                    </div>
-                  )}
-                </div>
-              ))}
-              <div className="flex flex-col space-y-2 pt-4 border-t border-gray-200">
-                <Button className="rounded-full" asChild>
-                  <Link to="/quote">Demander un devis</Link>
-                </Button>
-                {/* <Button asChild>
-                  <Link to="/contact">Contact</Link>
-                </Button> */}  
-              </div>
-            </div>
-          </motion.div>
-        )}
-      </div>
-    </header>
-  );
-};
