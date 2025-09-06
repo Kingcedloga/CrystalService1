@@ -234,7 +234,7 @@ export const MaritimeRepresentation: React.FC = () => {
             >
               <Card>
                 <CardContent className="p-6">
-                  <Users className="h-8 w-8 text-blue-500 mb-4" />
+                  <Users className="h-8 w-8 text-brand-blue-500 mb-4" />
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
                     Équipe Dédiée
                   </h3>
