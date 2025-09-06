@@ -18,7 +18,7 @@ export const MaritimeRepresentation: React.FC = () => {
         'Assistance 24/7'
       ],
       timeframe: 'Service continu',
-      color: 'from-blue-500 to-blue-600'
+      color: 'from-brand-blue-500 to-blue-600'
     },
     {
       icon: FileCheck,
