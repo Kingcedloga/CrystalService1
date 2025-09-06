@@ -12,9 +12,9 @@ export const Footer: React.FC = () => {
           <div>
             <Link to="/" className="flex items-center space-x-2 mb-4">
               <img 
-                src="/Logo 11.png" 
+                src="/Logo 12.png" 
                 alt="LogisticsPro Logo" 
-                className="h-10 w-auto"
+                className="h-12 w-auto"
               />
               <div>
                 <div className="text-xl font-bold">LogisticsPro</div>
