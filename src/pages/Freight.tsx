@@ -212,7 +212,7 @@ export const Freight: React.FC = () => {
                     <Button className="w-full" variant="outline" asChild>
                       <Link to="/quote">
                         Demander un devis
-                        <ArrowRight className="ml-2 h-4 w-4" />
+                        {/* <ArrowRight className="ml-2 h-4 w-4" /> */} 
                       </Link>
                     </Button>
                   </CardContent>
