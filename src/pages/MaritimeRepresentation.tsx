@@ -269,7 +269,7 @@ export const MaritimeRepresentation: React.FC = () => {
                   Demander un devis
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-gray-900" asChild>
+              <Button size="lg" variant="outline" className="border-white text-brand-blue-500 hover:bg-white hover:text-gray-900" asChild>
                 <Link to="/contact">
                   Nous contacter
                 </Link>
