@@ -106,7 +106,7 @@ export const Contact: React.FC = () => {
             
             <div className="space-y-6 mb-8">
               <div className="flex items-start space-x-4">
-                <Phone className="h-6 w-6 text-blue-600 mt-1" />
+                <Phone className="h-6 w-6 text-brand-blue-600 mt-1" />
                 <div className="text-brand-blue-600">
                   <h3 className="font-semibold text-gray-900">Téléphone</h3>
                   <p className="text-gray-600">+243 81 234 5678</p>
