@@ -10,6 +10,7 @@ import { Textarea } from '../components/ui/textarea';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select';
 import { offices } from '../data/mockData';
+import { OfficeMap } from '../components/Map/OfficeMap';
 
 const contactSchema = z.object({
   name: z.string().min(2, 'Nom requis'),
@@ -286,6 +287,53 @@ export const Contact: React.FC = () => {
           </motion.div>
         </div>
       </div>
+
+      {/* Map Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-8"
+          >
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Localisez Nos Bureaux
+            </h2>
+            <p className="text-xl text-gray-600">
+              Trouvez facilement le bureau Crystal Services le plus proche de vous
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            viewport={{ once: true }}
+          >
+            <OfficeMap offices={offices} />
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            viewport={{ once: true }}
+            className="text-center mt-8"
+          >
+            <p className="text-gray-600 mb-4">
+              Cliquez sur les marqueurs pour voir les détails de chaque bureau
+            </p>
+            <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
+              <span>📍 Kinshasa (Siège social)</span>
+              <span>🚢 Matadi (Port)</span>
+              <span>⛏️ Lubumbashi (Mines)</span>
+              <span>🌿 Beni (Nord-Kivu)</span>
+            </div>
+          </motion.div>
+        </div>
+      </section>
     </div>
   );
 };
