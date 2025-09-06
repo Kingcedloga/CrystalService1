@@ -72,7 +72,7 @@ export const News: React.FC = () => {
                     <Button variant="outline" className="w-full group-hover:bg-brand-blue-500 group-hover:text-white transition-colors" asChild>
                       <Link to={`/news/${article.id}`}>
                         Lire l'article
-                        <ArrowRight className="ml-2 h-4 w-4" />
+                        {/* <ArrowRight className="ml-2 h-4 w-4" /> */} 
                       </Link>
                     </Button>
                   </CardContent>
