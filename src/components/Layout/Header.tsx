@@ -41,7 +41,7 @@ export const Header: React.FC = () => {
   return (
     <header className="fixed top-0 inset-x-0 z-50">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className={`bg-white lg:rounded-full px-6 py-3 transition-all duration-300 ${scrolled ? 'shadow-xl' : 'shadow-md'} mt-0 lg:mt-6`}>
+        <div className={`bg-white lg:rounded-full px-6 py-3 transition-all duration-300 ${scrolled ? 'shadow-2xl' : 'shadow-md'} mt-0 lg:mt-6`}>
           <div className="flex justify-between items-center">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-2">
