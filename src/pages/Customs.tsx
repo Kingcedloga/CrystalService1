@@ -90,7 +90,7 @@ export const Customs: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50"> 
+    <div className="min-h-screen"> 
       {/* Hero Section */}
       <section className="relative text-white py-16 overflow-hidden">
         {/* Diaporama d'images */}
