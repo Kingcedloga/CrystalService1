@@ -72,7 +72,7 @@ export const Freight: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="relative text-white py-16 overflow-hidden min-h-[75vh] mt-[-5rem] lg:mt-[-6rem] z-10">
+      <section className="bg-gradient-to-r from-teal-600 to-teal-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
