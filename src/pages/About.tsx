@@ -252,7 +252,7 @@ export const About: React.FC = () => {
                         src={member.image}
                         alt={member.name}
                         className="w-24 h-24 rounded-full mx-auto object-cover group-hover:scale-105 transition-transform duration-300"
-                      <p className="text-gray-600">Crystal Services SARL</p>
+                      />
                     </div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">
                       {member.name}
