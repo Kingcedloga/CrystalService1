@@ -92,7 +92,7 @@ export const Customs: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50"> 
       {/* Hero Section */}
-      <section className="relative text-white py-16 overflow-hidden fixed top-0 inset-x-0 z-50">
+      <section className="fixed top-0 inset-x-0 z-50 text-white py-16 overflow-hidden">
         {/* Diaporama d'images */}
         <div className="absolute inset-0">
           <motion.img
