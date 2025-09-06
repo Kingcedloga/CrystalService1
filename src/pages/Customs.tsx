@@ -92,9 +92,9 @@ export const Customs: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50"> 
       {/* Hero Section */}
-      <section className="top-0 bottom-10 inset-x-0 text-white py-16 overflow-hidden">
+      <section className="relative text-white py-16 overflow-hidden">
         {/* Diaporama d'images */}
-        <div className="absolute inset-x-0">  
+        <div className="absolute inset-0">
           <motion.img
             key={currentImageIndex}
             src={heroImages[currentImageIndex]}
