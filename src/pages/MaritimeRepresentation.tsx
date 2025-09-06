@@ -199,7 +199,7 @@ export const MaritimeRepresentation: React.FC = () => {
             className="text-center mb-12"
           >
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Pourquoi Choisir LogisticsPro ?
+              Pourquoi Choisir Crystal Services ?
             </h2>
             <p className="text-xl text-gray-600">
               15 ans d'expérience dans la représentation maritime en RDC

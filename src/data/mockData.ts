@@ -93,7 +93,7 @@ export const offices = [
     address: 'Avenue des Cliniques, Immeuble Forescom, 2ème étage',
     phone: '+243 81 234 5678',
     whatsapp: '+243 81 234 5678',
-    email: 'kinshasa@logisticspro.cd',
+    email: 'kinshasa@crystalservices.cd',
     coordinates: { lat: -4.3317, lng: 15.3139 }
   },
   {
@@ -102,7 +102,7 @@ export const offices = [
     address: 'Boulevard du 30 Juin, près du Port de Matadi',
     phone: '+243 81 345 6789',
     whatsapp: '+243 81 345 6789',
-    email: 'matadi@logisticspro.cd',
+    email: 'matadi@crystalservices.cd',
     coordinates: { lat: -5.8386, lng: 13.4617 }
   },
   {
@@ -111,7 +111,7 @@ export const offices = [
     address: 'Avenue Mobutu, Quartier Résidentiel',
     phone: '+243 81 456 7890',
     whatsapp: '+243 81 456 7890',
-    email: 'lubumbashi@logisticspro.cd',
+    email: 'lubumbashi@crystalservices.cd',
     coordinates: { lat: -11.6645, lng: 27.4794 }
   },
   {
@@ -120,7 +120,7 @@ export const offices = [
     address: 'Avenue de la Paix, Centre Commercial Beni',
     phone: '+243 81 567 8901',
     whatsapp: '+243 81 567 8901',
-    email: 'beni@logisticspro.cd',
+    email: 'beni@crystalservices.cd',
     coordinates: { lat: 0.4951, lng: 29.4734 }
   }
 ];
