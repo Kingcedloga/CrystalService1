@@ -99,7 +99,7 @@ export const Customs: React.FC = () => {
             key={currentImageIndex}
             src={heroImages[currentImageIndex]}
             alt="Services de dédouanement"
-            className="w-full h-full object-cover object-top"
+            className="w-full h-full object-cover object-top" 
             initial={{ opacity: 0, scale: 1.1 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0 }}
