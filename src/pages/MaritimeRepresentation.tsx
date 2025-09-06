@@ -264,7 +264,7 @@ export const MaritimeRepresentation: React.FC = () => {
               Contactez nos experts pour une représentation professionnelle de vos navires
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-blue-500 hover:bg-blue-600" asChild>
+              <Button size="lg" className="bg-brand-blue-500 hover:bg-blue-600" asChild>
                 <Link to="/quote">
                   Demander un devis
                 </Link>
