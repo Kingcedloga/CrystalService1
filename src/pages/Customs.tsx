@@ -127,7 +127,7 @@ export const Customs: React.FC = () => {
             </p>
             <Button size="lg" variant="outline" className="bg-white/20 border-white/30 text-white hover:bg-white/30 backdrop-blur-sm" asChild>
               <Link to="/quote">
-                <FileCheck className="h-5 w-5 mr-2" />
+                {/* <FileCheck className="h-5 w-5 mr-2" /> */}  
                 Demander un devis
               </Link>
             </Button>
