@@ -186,7 +186,7 @@ export const Customs: React.FC = () => {
                       <div className="font-semibold text-gray-900">{service.timeframe}</div> 
                     </div>
                     <Button className="w-full" variant="outline" asChild>
-                      <Link to="/quote"> 
+                      <Link to="/quuote"> 
                         Demander un devis
                         <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
