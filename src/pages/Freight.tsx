@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Package, Truck, Ship, Plane, Clock, Shield, ArrowRight } from 'lucide-react';
@@ -6,6 +7,27 @@ import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 
 export const Freight: React.FC = () => {
+  // Images pour le diaporama
+  const heroImages = [
+    'https://images.pexels.com/photos/1117210/pexels-photo-1117210.jpeg', // Conteneurs
+    'https://images.pexels.com/photos/4439901/pexels-photo-4439901.jpeg', // Camions logistique
+    'https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg', // Port maritime
+    'https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg', // Avion cargo
+  ];
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  // Effet pour changer d'image automatiquement
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => 
+        prevIndex === heroImages.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 5000); // Change d'image toutes les 5 secondes
+
+    return () => clearInterval(interval);
+  }, [heroImages.length]);
+
   const transportModes = [
     {
       icon: Truck,
@@ -72,28 +94,62 @@ export const Freight: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-teal-600 to-teal-800 text-white py-16 min-h-[75vh] mt-[-5rem] lg:mt-[-6rem] z-10">
+      <section className="relative text-white py-16 min-h-[75vh] mt-[-5rem] lg:mt-[-6rem] z-10 overflow-hidden">
+        {/* Diaporama d'images */}
+        <div className="absolute inset-0">
+          <motion.img
+            key={currentImageIndex}
+            src={heroImages[currentImageIndex]}
+            alt="Services de transport et fret"
+            className="w-full h-full object-cover object-center"
+            initial={{ opacity: 0, scale: 1.1 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 1.5, ease: "easeInOut" }}
+          />
+        </div>
+        
+        {/* Overlay pour améliorer la lisibilité */}
+        <div className="absolute inset-0 bg-gradient-to-r from-teal-900/80 via-teal-800/70 to-teal-700/80"></div>
+        
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center pt-[5rem] lg:pt-[6rem]"
+            className="relative z-10 text-center pt-[5rem] lg:pt-[6rem]"
           >
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               Fret & Transport
             </h1>
-            <p className="text-xl text-teal-100 max-w-3xl mx-auto mb-8">
+            <p className="text-xl text-white/90 max-w-3xl mx-auto mb-8">
               Solutions de transport multimodal adaptées à tous vos besoins. 
               De la petite expédition au transport de gros volumes.
             </p>
-            <Button size="lg" variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20" asChild>
+            <Button size="lg" variant="outline" className="bg-white/20 border-white/30 text-white hover:bg-white/30 backdrop-blur-sm" asChild>
               <Link to="/quote">
                 <Package className="h-5 w-5 mr-2" />
                 Calculer mon transport
               </Link>
             </Button>
           </motion.div>
+        </div>
+        
+        {/* Indicateurs de diaporama */}
+        <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-10">
+          <div className="flex space-x-2">
+            {heroImages.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentImageIndex(index)}
+                className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                  index === currentImageIndex 
+                    ? 'bg-white scale-110' 
+                    : 'bg-white/50 hover:bg-white/70'
+                }`}
+              />
+            ))}
+          </div>
         </div>
       </section>
 
