@@ -173,7 +173,7 @@ export const MaritimeRepresentation: React.FC = () => {
               >
                 <Card className="text-center hover:shadow-lg transition-shadow duration-300">
                   <CardContent className="p-8">
-                    <Ship className="h-12 w-12 text-blue-500 mx-auto mb-4" />
+                    <Ship className="h-12 w-12 text-brand-blue-500 mx-auto mb-4" />
                     <h3 className="text-xl font-semibold text-gray-900 mb-3">
                       {port.name}
                     </h3>
