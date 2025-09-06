@@ -92,7 +92,7 @@ export const Customs: React.FC = () => {
   return (
     <div className="min-h-screen"> 
       {/* Hero Section */}
-      <section className="relative text-white py-16 overflow-hidden">
+      <section className="relative text-white py-16 overflow-hidden min-h-screen mt-[-5rem] lg:mt-[-6rem] z-10">
         {/* Diaporama d'images */}
         <div className="absolute inset-0">
           <motion.img
@@ -116,7 +116,7 @@ export const Customs: React.FC = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="relative z-10 text-center"
+            className="relative z-10 text-center pt-[5rem] lg:pt-[6rem]"
           >
             <h1 className="text-4xl lg:text-5xl font-bold mb-6"> 
               Services de Dédouanement
