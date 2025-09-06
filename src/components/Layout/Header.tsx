@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Menu, X, Truck, Phone, Search } from 'lucide-react';
@@ -7,8 +7,19 @@ import { cn } from '../../lib/utils';
 
 export const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
   const isHomePage = location.pathname === '/';
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 50;
+      setScrolled(isScrolled);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const navigation = [
     { 
@@ -30,7 +41,7 @@ export const Header: React.FC = () => {
   return (
     <header className="fixed top-0 inset-x-0 z-50">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className={`bg-white lg:rounded-full px-6 py-3 transition-shadow duration-300 ${!isHomePage ? 'shadow-2xl' : 'shadow-lg'} mt-0 lg:mt-6`}>
+        <div className={`bg-white lg:rounded-full px-6 py-3 transition-all duration-300 ${scrolled ? 'shadow-xl' : 'shadow-md'} mt-0 lg:mt-6`}>
           <div className="flex justify-between items-center">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-2">
