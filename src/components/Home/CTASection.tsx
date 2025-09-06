@@ -20,7 +20,7 @@ export const CTASection: React.FC = () => {
       description: 'Suivez vos envois en temps réel avec notre système de tracking',
       link: '/tracking',
       color: 'bg-teal-600 hover:bg-teal-700'
-    },
+    }, 
     {
       icon: Phone,
       title: 'Contacter un conseiller',
