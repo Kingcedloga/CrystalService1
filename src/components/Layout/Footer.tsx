@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
               <img 
                 src="/Logo 1211.png" 
                 alt="Logo" 
-                className="h-13 w-auto"
+                className="h-12 w-auto"
               />
               <div>
   
