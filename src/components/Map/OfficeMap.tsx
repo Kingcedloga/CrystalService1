@@ -34,7 +34,7 @@ const MapResizer: React.FC = () => {
     // Délai pour s'assurer que les animations sont terminées
     const timer = setTimeout(() => {
       map.invalidateSize();
-    }, 100);
+    }, 1000);
     
     return () => clearTimeout(timer);
   }, [map]);
