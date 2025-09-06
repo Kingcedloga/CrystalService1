@@ -17,8 +17,7 @@ export const Footer: React.FC = () => {
                 className="h-12 w-auto"
               />
               <div>
-                <div className="text-xl font-bold">LogisticsPro</div>
-                <div className="text-xs text-gray-400">Transport & Voyage</div>
+  
               </div>
             </Link>
             <p className="text-gray-400 text-sm mb-4">
