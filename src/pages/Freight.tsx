@@ -128,7 +128,7 @@ export const Freight: React.FC = () => {
             </p>
             <Button size="lg" variant="outline" className="bg-white/20 border-white/30 text-white hover:bg-white/30 backdrop-blur-sm" asChild>
               <Link to="/quote">
-                <Package className="h-5 w-5 mr-2" />
+                {/* <Package className="h-5 w-5 mr-2" /> */} 
                 Calculer mon transport
               </Link>
             </Button>
