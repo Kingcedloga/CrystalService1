@@ -30,8 +30,8 @@ export const Hero: React.FC = () => {
               </span>
             </h1>
             <p className="text-xl text-blue-100 mb-5 leading-relaxed">
-              Dédouanement, transport de fret et services de voyage professionnels 
-              à travers la République Démocratique du Congo et l'Afrique.
+              Comissionaire en douane, agent maritime transport & frêt et expert logistiques 
+              à travers la République Démocratique du Congo.
             </p>
 
             {/* Features */}
@@ -99,8 +99,8 @@ export const Hero: React.FC = () => {
               className="absolute -bottom-6 -left-6 bg-white rounded-xl p-4 shadow-xl"
             >
               <div className="text-center text-brand-blue-500">
-                <div className="text-2xl font-bold">15+</div>
-                <div className="text-sm text-gray-600">Années d'expérience</div>
+                {/* <div className="text-2xl font-bold">15+</div> */}
+                {/* <div className="text-sm text-gray-600">Années d'expérience</div> */} 
               </div>
             </motion.div>
             
@@ -111,8 +111,8 @@ export const Hero: React.FC = () => {
               className="absolute -top-6 -right-6 bg-orange-500 rounded-xl p-4 shadow-xl text-white"
             >
               <div className="text-center">
-                <div className="text-2xl font-bold">2,500+</div>
-                <div className="text-sm">Clients satisfaits</div>
+                {/* <div className="text-2xl font-bold">2,500+</div> */}
+                {/* <div className="text-sm">Clients satisfaits</div> */} 
               </div>
             </motion.div>
           </motion.div>
