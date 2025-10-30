@@ -92,32 +92,6 @@ export const Hero: React.FC = () => {
             </div>
             
             {/* Floating Stats */}
-            {/* {/* <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.8 }}
-              className="absolute -bottom-6 -left-6 bg-white rounded-xl p-4 shadow-xl"
-            >
-              <div className="text-center text-brand-blue-500">
-                <div className="text-2xl font-bold">15+</div>
-                <div className="text-sm text-gray-600">Années d'expérience</div>
-              </div>
-            </motion.div> */}
-            
-            {/* <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 1 }}
-              className="absolute -top-6 -right-6 bg-orange-500 rounded-xl p-4 shadow-xl text-white"
-            >
-              {/* <div className="text-center">
-                <div className="text-2xl font-bold">2,500+</div>
-                <div className="text-sm">Clients satisfaits</div>
-              </div> */}
-            </motion.div> */}
-          </motion.div> */}
-        </div>
-      </div>
     </section>
   );
 };
