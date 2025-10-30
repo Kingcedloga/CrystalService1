@@ -35,7 +35,7 @@ export const Hero: React.FC = () => {
             </p>
 
             {/* Features */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8"> 
               {[
                 { icon: Shield, text: 'Sécurisé & Fiable' },
                 { icon: Clock, text: 'Service 24/7' },
