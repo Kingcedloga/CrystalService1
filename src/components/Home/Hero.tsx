@@ -31,7 +31,7 @@ export const Hero: React.FC = () => {
             </h1>
             <p className="text-xl text-blue-100 mb-5 leading-relaxed">
               Dédouanement, transport de fret et services de voyage professionnels 
-              à travers la République Démocratique du Congo et l'Afrique.
+              à travers la République Démocratique du Congo.
             </p>
 
             {/* Features */}
