@@ -90,8 +90,5 @@ export const Hero: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-blue-900/20 to-transparent rounded-2xl"></div>
             </div>
-            
-            {/* Floating Stats */}
     </section>
-  );
 };
