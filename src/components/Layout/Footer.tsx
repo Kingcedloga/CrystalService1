@@ -33,7 +33,7 @@ export const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-sm">
               <li><Link to="/customs" className="text-gray-400 hover:text-white transition-colors">Dédouanement</Link></li>
-              <li><Link to="/freight" className="text-gray-400 hover:text-white transition-colors">Fret & Transport</Link></li>
+              <li><Link to="/freight" className="text-gray-400 hover:text-white transition-colors">Transport & Frêt</Link></li>
               <li><Link to="/travel" className="text-gray-400 hover:text-white transition-colors">Agence de Voyage</Link></li>
               <li><Link to="/tracking" className="text-gray-400 hover:text-white transition-colors">Suivi d'expédition</Link></li>
               <li><Link to="/quote" className="text-gray-400 hover:text-white transition-colors">Demander un devis</Link></li>
@@ -62,11 +62,11 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center space-x-2 text-gray-400">
                 <Phone className="h-4 w-4" />
-                <span>+243 81 234 5678</span>
+                <span>+243 89 42 41 281</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-400">
                 <Mail className="h-4 w-4" />
-                <span>info@crystalservices.cd</span>
+                <span>info@crystalservices.org</span>
               </div>
             </div>
           </div>
