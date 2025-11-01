@@ -160,7 +160,7 @@ export const mockPartnersLogos = [
 export const mockTeamMembers = [
   {
     id: '1',
-    name: 'Jean-Baptiste Mukendi',
+    name: 'Roger MUAKA',
     position: 'Directeur Général',
     image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg',
     description: '15 ans d\'expérience dans la logistique internationale. Expert en développement commercial en Afrique centrale.',
