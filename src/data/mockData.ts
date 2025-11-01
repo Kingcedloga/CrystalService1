@@ -136,7 +136,7 @@ export const stats = [
 export const mockPartnersLogos = [
   {
     id: '1',
-    name: 'DHL Express',
+    name: 'Malcon Sarl',
     logo: logo1
   }
 
