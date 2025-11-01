@@ -1,4 +1,5 @@
 import { TrackingStatus, NewsArticle, JobOffer } from '../types';
+import logo1 from '../src/images' ;
 
 export const mockTrackingData: Record<string, TrackingStatus[]> = {
   'EXP001234': [
@@ -136,7 +137,7 @@ export const mockPartnersLogos = [
   {
     id: '1',
     name: 'DHL Express',
-    logo: '/images/logopart1.jpg'
+    logo: logo1
   }
 
 ]
