@@ -1,5 +1,5 @@
 import { TrackingStatus, NewsArticle, JobOffer } from '../types';
-import logo1 from 'src/images' ;
+import logo1 from '../images/logopart1.jpg'; ;
 
 export const mockTrackingData: Record<string, TrackingStatus[]> = {
   'EXP001234': [
