@@ -136,7 +136,7 @@ export const mockPartnersLogos = [
   {
     id: '1',
     name: 'DHL Express',
-    logo: 'images/logopart1.jpg'
+    logo: '.images/logopart1.jpg'
   }
 
 ]
