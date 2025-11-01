@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
               </div>
             </Link>
             <p className="text-gray-400 text-sm mb-4">
-              Votre partenaire de confiance pour tous vos besoins logistiques et de voyage en République Démocratique du Congo.
+             Comissionaire en douane, agent maritime transport & frêt et expert logistiques à travers la République Démocratique du Congo.
             </p>
             <p className="text-gray-400 text-xs">
               RCCM: 21-B-00409
