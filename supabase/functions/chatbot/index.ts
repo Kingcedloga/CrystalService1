@@ -143,7 +143,7 @@ function generateResponse(message: string): string {
   
   // Services
   if (lowerMessage.includes('service') || lowerMessage.includes('que faites-vous')) {
-    return "Crystal Services propose 4 services principaux :\n\n🚛 **Dédouanement** (terrestre, maritime, aérien)\n🚢 **Fret & Transport** (tous modes de transport)\n✈️ **Agence de Voyage** (billetterie, visa, assurance)\n⚓ **Représentation Maritime** (services portuaires)\n\nSouhaitez-vous plus d'informations sur un service en particulier ?";
+    return "Crystal Services propose 4 services principaux :\n\n🚛 **Dédouanement** (terrestre, maritime, aérien)\n🚢 **Transport & Frêt** (tous modes de transport)\n✈️ **Agence de Voyage** (billetterie, visa, assurance)\n⚓ **Représentation Maritime** (services portuaires)\n\nSouhaitez-vous plus d'informations sur un service en particulier ?";
   }
   
   // Contact
