@@ -23,7 +23,7 @@ INFORMATIONS GÉNÉRALES:
 - Nom: Crystal Services SARL
 - RCCM: 21-B-00409
 - Fondée en: 2010
-- Siège social: Avenue des Cliniques, Immeuble Forescom, 2ème étage, Gombe - Kinshasa, RDC
+- Siège social: Avenue de la Justice, Résidence Victoire, 3ème niveau, Gombe - Kinshasa, RDC
 - Capital social: 500,000 USD
 - Plus de 2,500 clients satisfaits
 - Plus de 50,000 expéditions traitées
@@ -154,7 +154,7 @@ function generateResponse(message: string): string {
   
   // Contact
   if (lowerMessage.includes('contact') || lowerMessage.includes('téléphone') || lowerMessage.includes('email')) {
-    return "📞 **Nos coordonnées :**\n\n**Siège social (Kinshasa):**\n• Téléphone: +243 81 234 5678\n• Email: info@crystalservices.cd\n• Adresse: Avenue des Cliniques, Immeuble Forescom, 2ème étage, Gombe\n\n**Autres bureaux:**\n• Matadi: +243 81 345 6789\n• Lubumbashi: +243 81 456 7890\n• Beni: +243 81 567 8901\n\n⏰ Horaires: Lun-Ven 8h-17h, Sam 8h-12h";
+    return "📞 **Nos coordonnées :**\n\n**Siège social (Kinshasa):**\n• Téléphone: +243 89 42 41 281\n• Email: info@crystalservices.org\n• Adresse: Avenue de la Justice, Résidence Victoire, 3ème niveau, Gombe\n\n**Autres bureaux:**\n• Matadi: +243 81 345 6789\n• Lubumbashi: +243 81 456 7890\n• Beni: +243 81 567 8901\n\n⏰ Horaires: Lun-Ven 8h-17h, Sam 8h-12h";
   }
   
   // Dédouanement
