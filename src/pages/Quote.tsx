@@ -160,6 +160,7 @@ export const Quote: React.FC = () => {
                         <SelectItem value="DPU">DPU - Delivered at Place Unloaded</SelectItem>
                         <SelectItem value="DDP">DDP - Delivered Duty Paid</SelectItem>
                       </SelectContent>
+                        <SelectItem value="consultance">Consultance</SelectItem>
                     </Select>
                   </div>
                 )}

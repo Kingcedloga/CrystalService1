@@ -18,6 +18,7 @@ import { Offices } from './pages/Offices';
 import { Privacy } from './pages/Privacy';
 import { Terms } from './pages/Terms';
 import { Legal } from './pages/Legal';
+import { Consultance } from './pages/Consultance';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/freight" element={<Freight />} />
           <Route path="/travel" element={<Travel />} />
           <Route path="/maritime-representation" element={<MaritimeRepresentation />} />
+          <Route path="/consultance" element={<Consultance />} />
           <Route path="/tracking" element={<Tracking />} />
           <Route path="/quote" element={<Quote />} />
           <Route path="/partners" element={<Partners />} />

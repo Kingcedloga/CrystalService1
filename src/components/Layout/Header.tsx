@@ -29,7 +29,8 @@ export const Header: React.FC = () => {
         { name: 'Dédouanement', href: '/customs' },
         { name: 'Transport & Frêt', href: '/freight' },
         { name: 'Agence de Voyage', href: '/travel' },
-        { name: 'Représentation Maritime', href: '/maritime-representation' }
+        { name: 'Représentation Maritime', href: '/maritime-representation' },
+        { name: 'Consultance', href: '/consultance' }
       ]
     },
     { name: 'Suivi', href: '/tracking' },

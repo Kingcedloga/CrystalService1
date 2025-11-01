@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Truck, Ship, Plane, FileCheck, Luggage, Users, ArrowRight, Anchor } from 'lucide-react';
+import { Truck, Ship, Plane, FileCheck, Luggage, Users, ArrowRight, Anchor, Briefcase } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card';
 import { Button } from '../ui/button';
 
@@ -30,6 +30,14 @@ export const ServicesSection: React.FC = () => {
       features: ['Vols internationaux', 'Assurance voyage', 'Visa'],
       link: '/travel',
       color: 'from-orange-500 to-orange-600'
+    },
+    {
+      icon: Briefcase,
+      title: 'Consultance',
+      description: 'Conseil en sous-traitance et facilitation administrative',
+      features: ['Sous-traitance', 'Documents État', 'Conseil stratégique'],
+      link: '/consultance',
+      color: 'from-purple-500 to-purple-600'
     }
   ];
 
@@ -52,7 +60,7 @@ export const ServicesSection: React.FC = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <motion.div
               key={service.title}

@@ -35,6 +35,7 @@ export const Footer: React.FC = () => {
               <li><Link to="/customs" className="text-gray-400 hover:text-white transition-colors">Dédouanement</Link></li>
               <li><Link to="/freight" className="text-gray-400 hover:text-white transition-colors">Transport & Frêt</Link></li>
               <li><Link to="/travel" className="text-gray-400 hover:text-white transition-colors">Agence de Voyage</Link></li>
+              <li><Link to="/consultance" className="text-gray-400 hover:text-white transition-colors">Consultance</Link></li>
               <li><Link to="/tracking" className="text-gray-400 hover:text-white transition-colors">Suivi d'expédition</Link></li>
               <li><Link to="/quote" className="text-gray-400 hover:text-white transition-colors">Demander un devis</Link></li>
             </ul>

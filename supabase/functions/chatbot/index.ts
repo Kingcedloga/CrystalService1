@@ -53,6 +53,12 @@ SERVICES PRINCIPAUX:
    - Gestion de la documentation maritime
    - Services aux équipages
 
+5. CONSULTANCE:
+   - Sous-traitance commerciale
+   - Facilitation de documents auprès de l'État
+   - Conseil stratégique et accompagnement
+   - Obtention de licences et permis
+
 BUREAUX:
 - Kinshasa (Gombe): +243 81 234 5678, kinshasa@crystalservices.cd
 - Matadi: +243 81 345 6789, matadi@crystalservices.cd
@@ -143,7 +149,7 @@ function generateResponse(message: string): string {
   
   // Services
   if (lowerMessage.includes('service') || lowerMessage.includes('que faites-vous')) {
-    return "Crystal Services propose 4 services principaux :\n\n🚛 **Dédouanement** (terrestre, maritime, aérien)\n🚢 **Transport & Frêt** (tous modes de transport)\n✈️ **Agence de Voyage** (billetterie, visa, assurance)\n⚓ **Représentation Maritime** (services portuaires)\n\nSouhaitez-vous plus d'informations sur un service en particulier ?";
+    return "Crystal Services propose 5 services principaux :\n\n🚛 **Dédouanement** (terrestre, maritime, aérien)\n🚢 **Transport & Frêt** (tous modes de transport)\n✈️ **Agence de Voyage** (billetterie, visa, assurance)\n⚓ **Représentation Maritime** (services portuaires)\n💼 **Consultance** (sous-traitance, facilitation administrative)\n\nSouhaitez-vous plus d'informations sur un service en particulier ?";
   }
   
   // Contact
@@ -164,6 +170,11 @@ function generateResponse(message: string): string {
   // Voyage
   if (lowerMessage.includes('voyage') || lowerMessage.includes('billet') || lowerMessage.includes('visa')) {
     return "✈️ **Agence de Voyage :**\n\n• **Billetterie aérienne** (vols domestiques et internationaux)\n• **Assurance voyage** complète\n• **Assistance visa** et formalités\n• **Voyages d'affaires** et personnels\n\nLicence d'agence N° AGV/2021/156\n\nContactez nos conseillers voyage pour vos projets de déplacement !";
+  }
+  
+  // Consultance
+  if (lowerMessage.includes('consultance') || lowerMessage.includes('sous-traitance') || lowerMessage.includes('documents état') || lowerMessage.includes('conseil')) {
+    return "💼 **Services de Consultance :**\n\n• **Sous-traitance commerciale** (identification partenaires, négociation)\n• **Facilitation administrative** (licences, RCCM, certificats)\n• **Conseil stratégique** (étude marché, implantation RDC)\n• **Accompagnement personnalisé** selon vos besoins\n\n**Délais**: 1-8 semaines selon le projet\n\nContactez nos consultants pour une analyse gratuite de vos besoins !";
   }
   
   // Tarifs
@@ -197,5 +208,5 @@ function generateResponse(message: string): string {
   }
   
   // Réponse par défaut
-  return "🤖 **Bonjour !**\n\nJe suis l'assistant virtuel de Crystal Services. Je peux vous renseigner sur :\n\n• 🚛 Nos services (dédouanement, transport, voyage)\n• 📞 Nos coordonnées et bureaux\n• 💰 Demandes de devis\n• 📦 Suivi d'expéditions\n• 🏢 Informations sur l'entreprise\n\n**Posez-moi votre question !** Pour des besoins spécifiques, contactez directement notre équipe au +243 81 234 5678.";
+  return "🤖 **Bonjour !**\n\nJe suis l'assistant virtuel de Crystal Services. Je peux vous renseigner sur :\n\n• 🚛 Nos services (dédouanement, transport, voyage, consultance)\n• 📞 Nos coordonnées et bureaux\n• 💰 Demandes de devis\n• 📦 Suivi d'expéditions\n• 🏢 Informations sur l'entreprise\n\n**Posez-moi votre question !** Pour des besoins spécifiques, contactez directement notre équipe au +243 81 234 5678.";
 }
