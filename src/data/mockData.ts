@@ -138,7 +138,22 @@ export const mockPartnersLogos = [
     id: '1',
     name: 'Malcon Sarl',
     logo: logo1
-  }
+  },
+  {
+    id: '1',
+    name: 'Malcon Sarl',
+    logo: logo1
+  },
+  {
+    id: '1',
+    name: 'Malcon Sarl',
+    logo: logo1
+  },
+  {
+    id: '1',
+    name: 'Malcon Sarl',
+    logo: logo1
+  },
 
 ]
 
