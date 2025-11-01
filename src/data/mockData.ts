@@ -168,8 +168,8 @@ export const mockTeamMembers = [
   },
   {
     id: '2',
-    name: 'Marie Kalala',
-    position: 'Directrice Commerciale',
+    name: 'Mango MATABISHI',
+    position: 'Directeur Général Adjoint',
     image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg',
     description: 'Spécialiste en relations clients et développement de partenariats stratégiques. MBA en Commerce International.',
     linkedin: 'https://linkedin.com/in/marie-kalala'
