@@ -100,10 +100,10 @@ export const offices = [
   {
     city: 'Matadi',
     district: 'Centre-ville',
-    address: 'Boulevard du 30 Juin, près du Port de Matadi',
+    address: 'Avenue Inga 6, Matadi, Kongo Central',
     phone: '+243 81 345 6789',
     whatsapp: '+243 81 345 6789',
-    email: 'matadi@crystalservices.cd',
+    email: 'matadi@crystalservices.org',
     coordinates: { lat: -5.8386, lng: 13.4617 }
   },
   {
