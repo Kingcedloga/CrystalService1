@@ -177,7 +177,7 @@ export const mockTeamMembers = [
   {
     id: '3',
     name: 'Freddy MVIKA',
-    position: 'Responsable Opérations Douanières',
+    position: 'Responsable des opérations',
     image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg',
     description: 'Expert en réglementations douanières RDC et CEMAC. 12 ans d\'expérience en transit international.',
     linkedin: 'https://linkedin.com/in/patrick-mbuyi'
