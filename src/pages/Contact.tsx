@@ -236,7 +236,7 @@ export const Contact: React.FC = () => {
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="douane">Dédouanement</SelectItem>
-                        <SelectItem value="transport">Fret & Transport</SelectItem>
+                        <SelectItem value="transport">Transport & Frêt</SelectItem>
                         <SelectItem value="voyage">Agence de Voyage</SelectItem>
                         <SelectItem value="partenariat">Partenariat</SelectItem>
                         <SelectItem value="autre">Autre</SelectItem>
