@@ -17,7 +17,7 @@ export const ServicesSection: React.FC = () => {
     },
     {
       icon: Truck,
-      title: 'Fret & Transport',
+      title: 'Transport & Frêt',
       description: 'Solutions de transport adaptées à vos besoins',
       features: ['Groupage', 'Transport complet', 'Express'],
       link: '/freight',
