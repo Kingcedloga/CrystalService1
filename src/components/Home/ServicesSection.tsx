@@ -15,7 +15,7 @@ export const ServicesSection: React.FC = () => {
       link: '/customs',
       color: 'from-brand-blue-400 to-brand-blue-500'
     },
-    {
+    { 
       icon: Truck,
       title: 'Transport & Frêt',
       description: 'Solutions de transport adaptées à vos besoins',
@@ -23,14 +23,14 @@ export const ServicesSection: React.FC = () => {
       link: '/freight',
       color: 'from-teal-500 to-teal-600'
     },
-    {
-      icon: Luggage,
-      title: 'Agence de Voyage',
-      description: 'Billetterie, itinéraires et assistance visa',
-      features: ['Vols internationaux', 'Assurance voyage', 'Visa'],
-      link: '/travel',
-      color: 'from-orange-500 to-orange-600'
-    },
+    // {
+    //   icon: Luggage,
+    //   title: 'Agence de Voyage',
+    //   description: 'Billetterie, itinéraires et assistance visa',
+    //   features: ['Vols internationaux', 'Assurance voyage', 'Visa'],
+    //   link: '/travel',
+    //   color: 'from-orange-500 to-orange-600'
+    // },
     {
       icon: Briefcase,
       title: 'Consultance',
