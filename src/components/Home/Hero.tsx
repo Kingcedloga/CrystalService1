@@ -20,7 +20,7 @@ export const Hero: React.FC = () => {
           >
             <div className="inline-flex items-center bg-brand-blue-500/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
               <div className="w-2 h-2 bg-green-400 rounded-full mr-2"></div>
-              <span className="text-sm font-medium">Votre partenaire logistique de confiance</span>
+              <span className="text-sm font-medium">Votre consignataire de confiance</span>
             </div>
             
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
