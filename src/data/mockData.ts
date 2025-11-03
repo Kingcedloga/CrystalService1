@@ -41,15 +41,15 @@ export const mockNews: NewsArticle[] = [
     publishedAt: '2025-01-12',
     category: 'Douane'
   },
-  {
-    id: '3',
-    title: 'Expansion de notre réseau d\'agences de voyage',
-    excerpt: 'Ouverture de nouvelles agences à Bukavu et Goma pour mieux servir la région du Kivu.',
-    content: 'Dans le cadre de notre expansion géographique, nous ouvrons deux nouvelles agences...',
-    image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
-    publishedAt: '2025-01-10',
-    category: 'Agence de Voyage'
-  }
+  // {
+  //   id: '3',
+  //   title: 'Expansion de notre réseau d\'agences de voyage',
+  //   excerpt: 'Ouverture de nouvelles agences à Bukavu et Goma pour mieux servir la région du Kivu.',
+  //   content: 'Dans le cadre de notre expansion géographique, nous ouvrons deux nouvelles agences...',
+  //   image: 'https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg',
+  //   publishedAt: '2025-01-10',
+  //   category: 'Agence de Voyage'
+  // }
 ];
 
 export const mockJobs: JobOffer[] = [

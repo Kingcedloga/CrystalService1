@@ -53,7 +53,7 @@ SERVICES PRINCIPAUX:
    - Gestion de la documentation maritime
    - Services aux équipages
 
-5. CONSULTANCE:
+4. CONSULTANCE:
    - Sous-traitance commerciale
    - Facilitation de documents auprès de l'État
    - Conseil stratégique et accompagnement
@@ -149,7 +149,7 @@ function generateResponse(message: string): string {
   
   // Services
   if (lowerMessage.includes('service') || lowerMessage.includes('que faites-vous')) {
-    return "Crystal Services propose 5 services principaux :\n\n🚛 **Dédouanement** (terrestre, maritime, aérien)\n🚢 **Transport & Frêt** (tous modes de transport)\n✈️ **Agence de Voyage** (billetterie, visa, assurance)\n⚓ **Représentation Maritime** (services portuaires)\n💼 **Consultance** (sous-traitance, facilitation administrative)\n\nSouhaitez-vous plus d'informations sur un service en particulier ?";
+    return "Crystal Services propose 4 services principaux :\n\n🚛 **Dédouanement** (terrestre, maritime, aérien)\n🚢 **Transport & Frêt** (tous modes de transport)\n⚓ **Représentation Maritime** (services portuaires)\n💼 **Consultance** (sous-traitance, facilitation administrative)\n\nSouhaitez-vous plus d'informations sur un service en particulier ?";
   }
   
   // Contact
@@ -167,10 +167,10 @@ function generateResponse(message: string): string {
     return "🚛 **Solutions de Transport :**\n\n• **Terrestre**: Jusqu'à 25 tonnes\n• **Maritime**: Conteneurs FCL/LCL\n• **Aérien**: Jusqu'à 10 tonnes\n• **Services spéciaux**: Groupage, Express\n\nLicence de transport N° TR/2021/089\n\nBesoin d'un devis ? Contactez-nous avec vos détails d'expédition !";
   }
   
-  // Voyage
-  if (lowerMessage.includes('voyage') || lowerMessage.includes('billet') || lowerMessage.includes('visa')) {
-    return "✈️ **Agence de Voyage :**\n\n• **Billetterie aérienne** (vols domestiques et internationaux)\n• **Assurance voyage** complète\n• **Assistance visa** et formalités\n• **Voyages d'affaires** et personnels\n\nLicence d'agence N° AGV/2021/156\n\nContactez nos conseillers voyage pour vos projets de déplacement !";
-  }
+  // // Voyage
+  // if (lowerMessage.includes('voyage') || lowerMessage.includes('billet') || lowerMessage.includes('visa')) {
+  //   return "✈️ **Agence de Voyage :**\n\n• **Billetterie aérienne** (vols domestiques et internationaux)\n• **Assurance voyage** complète\n• **Assistance visa** et formalités\n• **Voyages d'affaires** et personnels\n\nLicence d'agence N° AGV/2021/156\n\nContactez nos conseillers voyage pour vos projets de déplacement !";
+  // }
   
   // Consultance
   if (lowerMessage.includes('consultance') || lowerMessage.includes('sous-traitance') || lowerMessage.includes('documents état') || lowerMessage.includes('conseil')) {
@@ -199,7 +199,7 @@ function generateResponse(message: string): string {
   
   // Salutations
   if (lowerMessage.includes('bonjour') || lowerMessage.includes('salut') || lowerMessage.includes('hello')) {
-    return "👋 **Bonjour et bienvenue chez Crystal Services !**\n\nJe suis votre assistant virtuel, prêt à répondre à toutes vos questions sur nos services logistiques et de voyage.\n\n**Comment puis-je vous aider aujourd'hui ?**\n• Informations sur nos services\n• Demande de devis\n• Suivi d'expédition\n• Coordonnées de nos bureaux\n• Ou toute autre question !";
+    return "👋 **Bonjour et bienvenue chez Crystal Services !**\n\nJe suis votre assistant virtuel, prêt à répondre à toutes vos questions sur nos services logistiques.\n\n**Comment puis-je vous aider aujourd'hui ?**\n• Informations sur nos services\n• Demande de devis\n• Suivi d'expédition\n• Coordonnées de nos bureaux\n• Ou toute autre question !";
   }
   
   // Merci
@@ -208,5 +208,5 @@ function generateResponse(message: string): string {
   }
   
   // Réponse par défaut
-  return "🤖 **Bonjour !**\n\nJe suis l'assistant virtuel de Crystal Services. Je peux vous renseigner sur :\n\n• 🚛 Nos services (dédouanement, transport, voyage, consultance)\n• 📞 Nos coordonnées et bureaux\n• 💰 Demandes de devis\n• 📦 Suivi d'expéditions\n• 🏢 Informations sur l'entreprise\n\n**Posez-moi votre question !** Pour des besoins spécifiques, contactez directement notre équipe au +243 81 234 5678.";
+  return "🤖 **Bonjour !**\n\nJe suis l'assistant virtuel de Crystal Services. Je peux vous renseigner sur :\n\n• 🚛 Nos services (dédouanement, transport, représentation maritime, consultance)\n• 📞 Nos coordonnées et bureaux\n• 💰 Demandes de devis\n• 📦 Suivi d'expéditions\n• 🏢 Informations sur l'entreprise\n\n**Posez-moi votre question !** Pour des besoins spécifiques, contactez directement notre équipe au +243 81 234 5678.";
 }
