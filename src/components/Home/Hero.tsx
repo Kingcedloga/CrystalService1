@@ -24,13 +24,13 @@ export const Hero: React.FC = () => {
             </div>
             
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
-              Solutions Logistiques
+              Solutions dounières
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-brand-blue-200 to-cyan-200 leading-tight mb-8">
-                & Voyage Expert
+                & Représentation maritime
               </span>
             </h1>
             <p className="text-xl text-blue-100 mb-5 leading-relaxed">
-              Comissionaire en douane, agent maritime transport & frêt et expert logistiques 
+              Commissionnaire en douane, agent maritime transport & frêt et consultance 
               à travers la République Démocratique du Congo.
             </p>
 
