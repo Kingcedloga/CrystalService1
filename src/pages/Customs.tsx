@@ -65,7 +65,7 @@ export const Customs: React.FC = () => {
         'Gestion des marchandises spéciales',
         'Coordination avec les compagnies aériennes'
       ],
-      timeframe: '4-12 heures', 
+      timeframe: 'Selon projet', 
       color: 'from-orange-500 to-orange-600'
     }
   ];
