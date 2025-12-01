@@ -52,7 +52,7 @@ export const Customs: React.FC = () => {
         'Gestion des surestaries',
         'Inspection et contrôle qualité'
       ],
-      timeframe: '2-5 jours', 
+      timeframe: 'Selon projet', 
       color: 'from-teal-500 to-teal-600'
     },
     {
