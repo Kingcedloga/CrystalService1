@@ -29,7 +29,7 @@ export const StatsSection: React.FC = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="text-center"
+              className="text-center" 
             > 
               <div className="bg-gradient-to-r from-brand-blue-500 to-brand-blue-600 text-white rounded-2xl p-6 mb-4 hover:shadow-xl transition-shadow duration-300">
                 <motion.div
