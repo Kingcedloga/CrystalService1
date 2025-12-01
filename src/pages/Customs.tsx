@@ -39,7 +39,7 @@ export const Customs: React.FC = () => {
         'Assistance technique et réglementaire',
         'Suivi des dossiers en temps réel'
       ],
-      timeframe: '24-48 heures', 
+      timeframe: 'Selon projet', 
       color: 'from-brand-blue-400 to-brand-blue-500'
     },
     {
