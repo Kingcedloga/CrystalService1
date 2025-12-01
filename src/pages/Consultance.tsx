@@ -52,7 +52,7 @@ export const Consultance: React.FC = () => {
         'Certificats et attestations',
         'Suivi des dossiers administratifs'
       ],
-      timeframe: '1-4 semaines', 
+      timeframe: 'Selon projet', 
       color: 'from-indigo-500 to-indigo-600'
     },
     {
