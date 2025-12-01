@@ -65,7 +65,7 @@ export const Consultance: React.FC = () => {
         'Optimisation des processus',
         'Formation et accompagnement'
       ],
-      timeframe: '2-8 semaines', 
+      timeframe: 'Selon projet', 
       color: 'from-teal-500 to-teal-600'
     }
   ];
