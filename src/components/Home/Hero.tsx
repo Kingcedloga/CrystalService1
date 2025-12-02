@@ -30,7 +30,7 @@ export const Hero: React.FC = () => {
               </span>
             </h1>
             <p className="text-xl text-blue-100 mb-5 leading-relaxed">
-              Commissionnaire en douane, agent maritime transport & frêt et consultance 
+              Commissionnaire en douane, agent maritime, transport & frêt et consultance 
               à travers la République Démocratique du Congo.
             </p>
 
